@@ -1,0 +1,194 @@
+/* ColorBox Core Style The following rules are the styles that are consistant between themes. Avoid changing this area to maintain compatability with future versions of ColorBox.*/
+#colorbox,#cboxOverlay,#cboxWrapper {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1000000;
+	overflow:hidden;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size:14px;
+	color:#4c4c4c;
+	line-height:12px;
+}
+div#colorbox .gift-card {
+	float:none;
+}
+div#colorbox div.citySuggestions table.list {
+	margin:0px;
+	float:none;
+}
+#cboxOverlay {
+	position:fixed;
+	width:100%;
+	height:100%;
+}
+#cboxMiddleLeft,#cboxBottomLeft {
+	clear:left;
+}
+#cboxContent {
+    background: #FFFFFF;
+    overflow: hidden;
+    position: relative;
+}
+#cboxLoadedContent {
+	overflow:auto;
+}
+#cboxLoadedContent iframe {
+	display:block;
+	width:100%;
+	height:100%;
+	border:0;
+}
+#cboxTitle {
+	margin:0;
+}
+#cboxLoadingOverlay,#cboxLoadingGraphic {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+}
+#cboxPrevious,#cboxNext,#cboxClose,#cboxSlideshow {
+	cursor: pointer;
+}
+/* Example user style The following rules are ordered and tabbed in a way that represents the order/nesting of the generated HTML,so that the structure easier to understand.*/
+#cboxOverlay {
+	background:url(../img/colorbox/overlay.png) 0 0 repeat;
+}
+#cboxTopLeft {
+    background: url("../img/colorbox/controls.png") no-repeat -135px -4px;
+    height: 31px;
+    width: 31px;
+}
+#cboxTopRight {
+    background: url("../img/colorbox/controls.png") no-repeat -171px -4px;
+    height: 31px;
+    width: 31px;
+}
+#cboxBottomLeft {
+    background: url("../img/colorbox/controls.png") no-repeat -135px -37px;
+    height: 31px;
+    width: 31px;
+}
+#cboxBottomRight {
+    background: url("../img/colorbox/controls.png") no-repeat -171px -36px;
+    height: 31px;
+    width: 31px;
+}
+#cboxMiddleLeft {
+    background: url("../img/colorbox/controls.png") repeat-y -4px top;
+    width: 31px;
+}
+#cboxMiddleRight {
+	width:31px;
+	background:url(../img/colorbox/controls.png) right top repeat-y;
+}
+#cboxTopCenter {
+	height:31px;
+	background:url(../img/colorbox/border.png) 0 -4px repeat-x;
+}
+#cboxBottomCenter {
+    background: url("../img/colorbox/border.png") repeat-x 0 -50px;
+    height: 31px;
+}
+#cboxLoadedContent {
+	margin-bottom:28px;
+}
+#cboxTitle {
+	position:absolute;
+	bottom:4px;
+	left:0;
+	text-align:center;
+	width:100%;
+}
+#cboxCurrent {
+	position:absolute;
+	bottom:4px;
+	left:58px;
+}
+#cboxSlideshow {
+	position:absolute;
+	bottom:4px;
+	right:30px;
+}
+#cboxPrevious {
+	position:absolute;
+	bottom:0;
+	left:0px;
+	background:url(../img/colorbox/controls.png) -75px 0px no-repeat;
+	width:25px;
+	height:25px;
+	text-indent:-9999px;
+}
+#cboxPrevious.hover {
+	background-position:-75px -25px;
+}
+#cboxNext {
+	position:absolute;
+	bottom:0;
+	left:27px;
+	background:url(../img/colorbox/controls.png) -50px 0px no-repeat;
+	width:25px;
+	height:25px;
+	text-indent:-9999px;
+}
+#cboxNext.hover {
+	background-position:-50px -25px;
+}
+#cboxLoadingOverlay {
+	background:url(../img/colorbox/loading_background.png) center center no-repeat;
+}
+#cboxLoadingGraphic {
+	background:url(../img/colorbox/loading.gif) center center no-repeat;
+}
+#cboxClose {
+	background:url("../img/color-close.png") no-repeat 0 0;
+    border: medium none;
+    display: block;
+    height: 16px;
+    position: absolute;
+    right: 6px;
+    text-indent: -999999em;
+    top: 1px;
+    width: 16px;
+	z-index:999999;
+}
+div#colorbox ul.coupon-chart {
+	width:398px;
+}
+div#colorbox ul.flow-chart li a,div#colorbox ul.coupon-chart li a {
+	padding:7px 5px 5px 3px;
+}
+div#colorbox form.normal {
+	width: 95%;
+}
+div#colorbox ul.action-link a{
+    padding:3px 0 5px 24px;
+}
+#colorbox h2 {
+    border-bottom: 1px solid #C3C3C3;
+    color: #1C1C1C;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 30px 5px 0;
+    padding: 0 0 15px;
+}
+#colorbox h3 {
+    color: #383838;
+    font-size: 14px;
+    font-weight: bold;
+}
+#colorbox h3.city-list {
+    color: #E4771E;
+    font-weight: bold;
+    margin: 8px 0 0;
+}
+div#colorbox form#DealLiveForm {
+    margin: 0;
+    padding: 10px 0;
+    width: 100%;
+}
+div#colorbox div.cities-block {
+    padding: 10px;
+    width: 660px;
+}

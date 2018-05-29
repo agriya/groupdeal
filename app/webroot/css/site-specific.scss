@@ -1,0 +1,2321 @@
+/* Site Specfic style is begin */
+/** [groupdeal] user and  cuser , admin common  table-list */
+
+table.list {
+  tr {
+    th.deal-name, td.deal-name {
+      width: 150px; }
+    &.total-block td {
+      background: #f0f8fe;
+      font-weight: bold; }
+    td.deal-name, th.deal-name {
+      width: 220px; }
+    &.nodeal td {
+      background: #F2F0F1;
+      color: #CAC8C9; }
+    &.main-branch td.user-count, &.branches td.user-count {
+      background: #60B2BE;
+      color: $base-white; } }
+  td.select, th.select {
+    width: 23px; }
+  td.actions, th.actions {
+    width: 52px;
+    padding: 4px 0px 0px 4px; } }
+
+div#languages-admin_index div.actions {
+  text-align: center; }
+
+table.list {
+  td.branch-action span, tr:hover td .actions {
+    display: block; } }
+
+div {
+  &.address-block-info p {
+    white-space: nowrap; }
+  &.add-block1 a.export {
+    padding: 3px 2px 5px 20px; } }
+
+a.export {
+  padding: 3px 3px 6px 23px; }
+
+div {
+  &#affiliates-admin_index div.add-block1 a {
+    padding: 3px 2px 2px 26px; }
+  &.add-block1 a.click-here {
+    padding: 0px; } }
+
+#js-map-container, #js-map-container-branch {
+  height: 225px;
+  width: 288px; }
+
+div.clearAll {
+  margin: 10px 0 0 0; }
+
+table.list tr {
+  td.revenue {
+    color: #f99118; }
+  &:hover td.site-amount, td.site-amount {
+    background: #DFFFD0; } }
+
+/** [groupdeal] coommon dl list*/
+
+dl.result-list {
+  dt, dd {
+    float: left;
+    width: 70%;
+    min-height: 20px;
+    padding: 5px 0;
+    font-size: 12px; }
+  dt {
+    font-weight: bold;
+    width: 23%; } }
+
+div.admin-content dl.result-list {
+  dt {
+    width: 36%; }
+  dd {
+    width: 64%; } }
+
+/* end hack */
+
+/** form */
+
+form {
+  &.add-live-form {
+    width: 100%;
+    padding: 0px;
+    h4 {
+      padding: 5px 10px;
+      font-size: 14px;
+      color: #3ACAD9; } }
+  &.normal div {
+    &.review-block div.textarea {
+      background: none; }
+    &.add-time-picker-formate div {
+      &.input label {
+        float: left;
+        width: 194px;
+        display: block;
+        position: static; }
+      &.timepicker label {
+        display: inline;
+        position: absolute;
+        width: auto; }
+      &.input input {
+        float: left;
+        padding: 0px 0px 0px 20px;
+        margin: -5px 0px 0px 0px; } } } }
+
+*+html form.normal div.add-time-picker-formate div.input input {
+  margin: 0px; }
+
+span.email-template {
+  margin: 0px 0px 0px 8px; }
+
+input#EmailTemplateIsHtml0 {
+  margin: 0px 0px 0px 199px; }
+
+form.normal div.billing-info-block div.input label {
+  width: 136px;
+  font-size: 13px;
+  font-weight: bold; }
+
+div.end-date-time-block div.datepicker-content {
+  left: 8px; }
+
+form.normal div {
+  &.date-time label {
+    width: 159px;
+    margin: 6px 0px 0px 0px; }
+  &.deal-add-date-time-block {
+    div.end-date-time-block label, label {
+      display: block;
+      position: static;
+      width: auto;
+      margin: 0px; }
+    div.time-desc {
+      margin: 0px 0px 0px 16px; } } }
+
+div.admin-content form.normal div.deal-add-date-time-block div.end-date-time-block .time-desc {
+  margin: 0px 0px 0px 16px; }
+
+form.normal div {
+  &.deal-add-date-time-block div.date-time {
+    width: 26%; }
+  &.input-blocks div.input label {
+    width: 107px; } }
+
+div#gift_users-add div.gift-card {
+  width: 481px;
+  margin: 0px; }
+
+form {
+  &.normal div {
+    &.billing-info-block div {
+      &.checkbox input, &.date label+select, &.time label+select, &.datetime label+select {
+        margin: 0px 3px 0px 157px;
+        height: 30px;
+        padding: 5px; }
+      &.date select {
+        height: 30px;
+        padding: 5px; } }
+    &.input span {
+      &.currency {
+        margin: 0 3px 0 190px; }
+      &.currency+input, &.currency+select {
+        margin: 0px; } }
+    &.calculator-block div.input span.currency {
+      margin: 0px; }
+    &.text input.disabled {
+      &:focus, &:hover {
+        border: 1px solid darken($base-white, 5%);
+        background: darken($base-white, 5%);
+        color: lighten($base-black, 77%); }
+      border: 1px solid darken($base-white, 5%);
+      background: darken($base-white, 5%);
+      color: lighten($base-black, 77%); } }
+  &#UserProfileEditForm {
+    div {
+      &.select span.currency {
+        margin: 0 3px 0 1px; }
+      &.date-time label {
+        margin: 0 0 0 9px;
+        width: 154px; } }
+    .time-desc {
+      margin: 0 0 0 200px; } } }
+
+div.buy-cancel-block a:hover {
+  color: $base-black; }
+
+form {
+  &.normal div {
+    &.deal-add-date-time-block div.error-message, &.deal-listing-location div.error-message {
+      margin: 0px 0px 0px 0px; }
+    &.subscriptions-content-form div.error-message {
+      margin: 0px; } }
+  &#TransactionIndexForm .time-desc {
+    margin: 0px 0px 0px 57px; } }
+
+div.deal-listing-location {
+  span.info {
+    margin: 5px 0px 0px 1px; }
+  div.js-show-branch-addresses span.info {
+    margin: 5px 0px 0px 12px; } }
+
+form {
+  &.subscription {
+    padding: 10px 0 10px 10px;
+    width: 340px;
+    div {
+      &.input {
+        float: left;
+        padding: 5px; }
+      &.submit {
+        float: left;
+        padding: 5px;
+        background: url("../img/common-sprite.png") no-repeat left -10766px;
+        float: left;
+        height: 28px;
+        padding: 5px 0 0 3px; }
+      &.input label {
+        position: absolute;
+        text-align: right;
+        width: 105px;
+        margin: 3px 0 0 0;
+        color: lighten($base-black, 20%);
+        display: none; }
+      &.submit input {
+        background: url("../img/common-sprite.png") no-repeat right -10805px;
+        font-size: 12px;
+        font-weight: 400;
+        height: 28px;
+        margin: 0;
+        padding: 0 0 2px;
+        width: 77px;
+        color: $base-white;
+        &:hover {
+          color: $base-black; } }
+      &.input {
+        input {
+          border: 1px solid lighten($base-black, 80%);
+          color: lighten($base-black, 20%);
+          margin-left: 0;
+          padding: 5px;
+          width: 220px;
+          font-size: 12px;
+          &:hover {
+            border: 1px solid #38C8D7; } }
+        div.error-message {
+          background: url("../img/common-sprite.png") no-repeat scroll -9px -7913px transparent;
+          color: $base-red;
+          font-size: 12px;
+          margin: 8px 0 0 5px;
+          padding: 0 0 0 21px;
+          text-align: left; } } } }
+  &.normal {
+    .two-col-form div {
+      &.input, &.select {
+        float: left;
+        width: 31%; } }
+    .calculator-block div {
+      &.input, &.select {
+        float: left;
+        width: 31%; } }
+    .two-col-form div.input {
+      width: 285px; }
+    div.two-col-form div.input {
+      label {
+        width: 100px; }
+      input {
+        margin: 0px 5px 0px 125px; } }
+    table.list td div.checkbox input {
+      margin: 0; } } }
+
+.amount-block {
+  width: 60%; }
+
+.calculator-block {
+  float: none;
+  width: auto;
+  border: 2px solid #C4DAD4;
+  margin: 10px; }
+
+form.normal {
+  .calculator-block div {
+    &.input {
+      label {
+        float: left;
+        font-size: 13px;
+        position: static;
+        text-align: left;
+        width: 149px; }
+      input {
+        margin-left: 0px;
+        width: 90px; } }
+    &.select select {
+      margin-left: 0px;
+      width: 90px; } }
+  .two-col-form div {
+    &.input input, &.select select {
+      width: 100px; } }
+  .amount-block div {
+    &.input input, &.select select {
+      width: 100px; } }
+  div.textarea textarea.email-content {
+    width: 500px;
+    height: 300px; } }
+
+div#users-my_stuff td.status-0 a {
+  margin: 0px 3px; }
+
+p.gift-link a {
+  padding: 0 0 0 20px;
+  text-indent: 1px;
+  width: auto; }
+
+div {
+  &#deals-buy p.gift-link a {
+    padding: 7px 0 6px 31px;
+    font-size: 11px; }
+  &.add-amount-block {
+    text-align: right;
+    padding: 5px 0px; } }
+
+.sep-or {
+  color: $base-blue;
+  float: left;
+  font-weight: bold;
+  margin: 5px 0;
+  padding: 5px; }
+
+.mceEditor {
+  display: block;
+  margin: 40px 0 0 0; }
+
+div.text div.fromleft {
+  border: 1px solid $base-white;
+  width: 300px; }
+
+.comment-form form.normal {
+  margin: 0;
+  padding: 0; }
+
+.userComments-add-block div.submit-block {
+  margin: 15px 0 5px 5px; }
+
+form.comment-form {
+  padding: 0px;
+  div {
+    &.input {
+      margin: 0px;
+      padding: 0px;
+      label {
+        margin: 10px 0 10px 5px;
+        padding: 3px 0 0 9px;
+        position: static;
+        text-align: left; }
+      textarea {
+        height: 103px;
+        margin: 5px 0 0 4px;
+        width: 99%; } }
+    &.submit input {
+      float: left;
+      margin: 0px 25px 0px 0px; } } }
+
+p.fund-available {
+  margin: 9px 0 0 214px;
+  span {
+    font-weight: bold; } }
+
+form.normal div.radio span.label-content+input {
+  margin-left: 196px; }
+
+span.label-content-radio {
+  padding: 0 0 0 25px; }
+
+input {
+  &#UserProfileOwnHome1, &#UserProfileHaveChildren1 {
+    margin: 0px 0px 0px 199px; } }
+
+form.normal div {
+  &.two-col-form div.input span {
+    &.currency+input {
+      margin: 0px; }
+    &.currency {
+      margin: 0 5px 0 125px; } }
+  &.input input+span.currency, &.two-col-form div.input input+span.currency {
+    margin: 0px; }
+  &.deal {
+    position: static;
+    top: 0px;
+    left: 0px;
+    width: auto; } }
+
+/* captcha styles */
+
+div#gift_users-view_gift_card form.normal div.captcha-block {
+  margin: 0 10px 0 75px; }
+
+form#ContactAddForm div.captcha-block {
+  margin: 0px 0px 0px 211px; }
+
+/* form style is end */
+/** language form styles */
+
+div.language-block {
+  margin: 1px 10px 0px 0px; }
+
+.language-form {
+  div.input {
+    float: left; }
+  label {
+    padding: 0 10px 0 0;
+    color: lighten($base-black, 20%);
+    font-weight: normal;
+    font-size: 12px; }
+  div.select select {
+    width: 90px;
+    padding: 3px;
+    border: 1px solid #38c8d7;
+    font-family: $common-font;
+    font-size: 11px;
+    &:hover {
+      border: 1px solid lighten($base-black, 87%); } } }
+
+form {
+  &.search-form {
+    padding: 10px 0px;
+    div {
+      &.input, &.select {
+        float: left;
+        min-height: 35px;
+        margin: 0px;
+        padding: 0px;
+        width: 225px; }
+      &.date {
+        width: 250px; }
+      &.submit {
+        float: left;
+        width: auto;
+        margin: 6px 5px 0px 0px;
+        input {
+          margin: 0px;
+          float: left; } }
+      &.select select, &.text input {
+        width: 167px;
+        margin: 9px 0px 0px 78px;
+        height: 17px;
+        padding: 4px 0px 4px 0px;
+        font-family: $common-font; }
+      &.date label+select {
+        width: 100px; }
+      &.select select, &.date label+select {
+        margin: 0px; }
+      &.input label {
+        width: 57px;
+        position: absolute;
+        margin: 12px 0px 0px 0px;
+        font-weight: normal;
+        text-align: right;
+        color: lighten($base-black, 50%);
+        font-size: 12px; }
+      &.date-time label {
+        text-align: left; }
+      &.date select {
+        &#Transaction_fromDay, &#Transaction_toDay {
+          width: 40px; }
+        &#Transaction_fromYear, &#Transaction_toYear {
+          width: 55px; } }
+      &.text {
+        width: 255px;
+        margin: 0px 0px 0px 8px; }
+      &.mapblock-info {
+        float: left; }
+      &.submit-block {
+        margin: 0px 0px 5px 0px; } } }
+  &.normal div.date-time div.timepicker input {
+    margin: 8px 0px 0px 3px;
+    height: 15px;
+    width: 79px;
+    font-size: 11px;
+    padding: 0px 0px 0px 19px; } }
+
+/* company add deal page style is begin */
+
+.date-time-block {
+  position: relative;
+  z-index: 3; }
+
+.date-time-block+.date-time-block {
+  z-index: 2; }
+
+div {
+  &.admin-content div.date-time-block div.live-date-time {
+    width: auto; }
+  &.date-time-block div.end-date-time-block {
+    position: relative; }
+  &.admin-content form {
+    &.add-live-form div.live-date-time .time-desc {
+      margin: 0px 0px 0px 202px; }
+    &.normal div.end-date-time-block .time-desc {
+      margin: 0px 0px 0px 119px; } }
+  &.date-time-block div.end-date-time-block label {
+    width: 110px; } }
+
+form.normal div {
+  &.end-date-time-block .time-desc {
+    margin: 0 0 0 153px; }
+  &.input-blocks div.input input {
+    margin: 0 0 0 124px;
+    width: 169px;
+    padding: 9px 0px; } }
+
+div {
+  &.input-blocks {
+    span.info {
+      margin: 5px 0px 0px 124px; }
+    div.input-block-left span.info {
+      margin: 5px 0px 0px 123px; } }
+  &.show-map-block {
+    border: 1px solid lighten($base-black, 87%);
+    padding: 5px;
+    margin: 15px 0px 5px 0px; } }
+
+#users-register div#js-map-container {
+  margin: 0 0 0 180px; }
+
+div {
+  &.calendar-block div.side2-info-block, &.venue-show-map-block {
+    margin: 15px 0px 15px 0px; }
+  &.ajax-login-block form#UserLoginForm div.input div.error-message {
+    margin: 15px 0 0 8px;
+    font-size: 11px; } }
+
+#gift_users-view_gift_card form#UserRegisterForm div.input div.error-message {
+  margin: 15px 0 0 8px;
+  font-size: 11px; }
+
+form.normal .two-col-form div.input {
+  &:first-child div.error-message {
+    margin: 0px; }
+  &:first-child+span.sep-or+div.input div.error-message {
+    margin: 5px 0 0 128px; } }
+
+table.list td.default {
+  background: white url("../img/common-sprite.png") no-repeat left -11626px;
+  &:hover {
+    background: #e1f6fd url("../img/common-sprite.png") no-repeat left -11626px; } }
+
+/* page-info styles */
+
+div {
+  &.ui-tabs h2 {
+    font-size: 17px;
+    font-weight: normal; }
+  &.display-information {
+    line-height: 20px;
+    padding: 10px; }
+  &.ui-tabs div.ui-tabs h2 {
+    padding: 10px 0 5px 0px; } }
+
+form.normal div.date-block {
+  label {
+    position: static;
+    text-align: left; }
+  .time-desc {
+    margin: -20px 0 0 180px; }
+  label {
+    margin: 0 0 0 37px; }
+  div.overlabel-wrapper label.overlabel-apply {
+    margin: 0px; } }
+
+/* test mode style is begin */
+
+div {
+  &.test-mode-left {
+    width: 265px;
+    float: left;
+    margin: 0px 20px 0px 180px; }
+  &.test-mode-right {
+    width: 265px;
+    float: left;
+    margin: 0px 0px 0px 0px; } }
+
+form.normal div {
+  &.test-mode-left div.text input, &.test-mode-right div.text input {
+    width: 207px;
+    margin: 0px;
+    height: 25px;
+    padding: 7px 0px 7px 5px; } }
+
+div.test-mode-content span.label-content {
+  padding: 18px 0px 0px 0px; }
+
+form.normal div {
+  &.test-mode-left div.text input {
+    margin: 0px 0px 0px 0px; }
+  &.test-mode-right div.text input {
+    margin: 0px; } }
+
+div.test-mode-left span {
+  &.info, &.help {
+    margin-left: 0px; } }
+
+.test-mode-content {
+  position: relative; }
+
+div {
+  &.test-mode-left label, &.test-mode-right label {
+    font-weight: bold;
+    color: $base-blue;
+    font-size: 14px; }
+  &.test-mode-left label {
+    margin: 0px 0px 0px 13px; }
+  &.test-mode-right {
+    label {
+      margin: 0px 0px 0px 15px; }
+    span {
+      &.info, &.help {
+        margin-left: 3px; } } }
+  &.cities-action-block span {
+    display: block; }
+  &.date-time-block1 div.date-time div.error-message {
+    margin: 0 0 0 10px; } }
+
+/* ui datepicker style is begin */
+
+form.normal {
+  .ui-datepicker select {
+    &.ui-datepicker-month, &.ui-datepicker-year {
+      margin: 0 2px;
+      width: 45% !important; } }
+  div.thick-box .ui-datepicker select {
+    &.ui-datepicker-month, &.ui-datepicker-year {
+      margin: 0 2px;
+      width: 45% !important; } }
+  .ui-datepicker select.ui-datepicker-month {
+    width: 51% !important;
+    margin: 0 0 0 -7px; }
+  div {
+    &.thick-box .ui-datepicker select.ui-datepicker-month {
+      width: 51% !important;
+      margin: 0 0 0 -7px; }
+    &.date-time-expiry-date>label {
+      width: 160px;
+      text-align: left; }
+    &.date-time-expiry-date .time-desc img {
+      margin: 0 0 0 -5px; }
+    &.calculator-block div.submit input {
+      margin: 0px; } } }
+
+.ui-dropslide {
+  width: auto ! important; }
+
+/* static page style is begin */
+
+div {
+  &.static-pages-block p {
+    padding: 5px 0px; }
+  &.how-it-work-page ol {
+    list-style: disc inside none;
+    li {
+      padding: 5px 0px; } } }
+
+/* static paeg style end */
+/* livedeal add and edit page style is begin */
+
+form.normal div.search-information-block div.input {
+  padding: 0px; }
+
+div {
+  &.date-time-block-info div {
+    &.timepicker {
+      margin: 0px 0px 0px 181px; }
+    &.date-time {
+      width: 261px; }
+    &.end-date-time-block {
+      label {
+        width: 121px; }
+      div.timepicker {
+        margin: 0 0 0 145px; } } }
+  &.deal-repeat-block div {
+    &.checkbox {
+      float: left;
+      width: 134px; }
+    &.select div.checkbox {
+      input {
+        margin: 0px; }
+      label {
+        width: auto;
+        padding: 0px; } } } }
+
+span.repeat-every {
+  color: lighten($base-black, 40%);
+  font-size: 14px;
+  position: absolute;
+  text-align: left;
+  width: 168px;
+  padding: 7px 0px 0px 22px;
+  font-weight: bold; }
+
+div {
+  &.deal-repeat-select-block {
+    padding: 0 0 0 206px; }
+  &.deal-discount-form-block {
+    width: auto;
+    float: none;
+    margin: 0px 0px 10px 0px;
+    background: url("../img/price-bg.png") repeat-x left top transparent;
+    border: 1px solid #c4dad4;
+    padding: 4px 0px 0px 0px;
+    margin: 10px; }
+  &.budget-calculator-block div.deal-discount-form-block {
+    background: none;
+    border: none; } }
+
+form.normal div {
+  &.discount-form-block div {
+    &.input {
+      label {
+        color: lighten($base-black, 40%);
+        display: block;
+        font-size: 12px;
+        font-weight: 400;
+        position: static;
+        text-align: left;
+        width: 105px;
+        position: static;
+        display: block; }
+      input {
+        margin: 16px 0 0 21px; } }
+    &.disable-field input {
+      &:hover {
+        background: lighten($base-black, 85%);
+        border: 1px solid lighten($base-black, 85%); }
+      background: lighten($base-black, 85%);
+      border: 1px solid lighten($base-black, 85%); } }
+  &.commision-calculator-block div.discount-form-block div.discount-price input, &.budget-calculator-block div.discount-form-block div.input input {
+    margin: 20px 0px 0px 13px; }
+  &.commision-calculator-block div.discount-form-block div.input input {
+    margin: 20px 0px 0px 22px; }
+  &.discount-form-block div.input span.currency+input {
+    margin: 20px 0 0 2px; }
+  &.deal-discount-form-block1 div.input span.currency {
+    margin: 0px 0px 0px 11px;
+    vertical-align: baseline; } }
+
+*+html form.normal div.deal-discount-form-block1 div.input span.currency {
+  vertical-align: super; }
+
+form {
+  &.normal div {
+    &.discount-form-block div.required label {
+      padding: 0px 0px 0px 10px; }
+    &.deal-discount-form-block1 .grid_4 label {
+      width: 120px; }
+    &.discount-form-block div.input span.currency+input {
+      margin: 20px 0px 0px 2px; } }
+  &#DealAddForm div {
+    &.discount-form-block div.input span.currency+input {
+      margin: 21px 0px 0px 2px; }
+    &.deal-discount-form-block-right div.discount-form-block div.input span.currency+input {
+      margin: 0px 0px 0px 2px; } }
+  &.normal div.discount-form-block div {
+    &.saving-user span.currency+input {
+      margin: 16px 0px 0px 2px; }
+    &.input input {
+      width: 70px; } } }
+
+input#DealRepeatUntil1 {
+  margin: 0px 0px 0px 204px; }
+
+form.normal div.deal-discount-form-block div.deal-discount-form-block1 div.grid_4 label {
+  width: 180px; }
+
+/* credit card page style is begin */
+
+div {
+  &.viewpage-content, &.login-left-block {
+    border: 1px solid darken($base-white, 19%);
+    background: darken($base-white, 3%) } }
+
+.billing-left, .billing-right {
+  width: 49%;
+  float: left; }
+
+/* live deal add form style is begin */
+
+span.redeem-info {
+  margin: 0px 0px 0px 10px; }
+
+div {
+  &.time-picker-formate div {
+    &.input {
+      padding: 5px 5px 5px 0px; }
+    &.timepicker {
+      float: left;
+      margin: 0px 0px 0px 0px;
+      text-align: left; } }
+  &.redeem-input-block {
+    margin: 0px 0px 0px 25px; } }
+
+form {
+  &.add-live-form {
+    h3 {
+      font-size: 1.7em;
+      color: lighten($base-black, 20%);
+      font-weight: normal;
+      border-bottom: 1px solid darken($base-white, 15%);
+      padding: 10px 10px 10px 10px;
+      margin: 0px 0px 15px 0px; }
+    div {
+      &.page-info {
+        margin: 10px; }
+      &.deal-listing-location div.checkbox input {
+        margin: 0px; } }
+    h3.genral {
+      padding: 10px;
+      margin: 0px 0px 20px 0px; } }
+  &.register-add-live-form .form-block, &#deals-admin_subdeal_edit .form-block, &#DealSubdealAddForm .form-block {
+    margin: 0px 0px 15px 0px; }
+  &.add-live-form div.deal-discount-form-block div.error-message {
+    margin: 0px 0px 0px 10px;
+    font-size: 11px; } }
+
+dl.result-list {
+  padding: 10px;
+  margin: 10px;
+  background: darken($base-white, 4%); }
+
+/* deal add and edit page style is begin */
+
+div.cities-checkbox-block {
+  margin: 0px 0px 0px 30px;
+  div {
+    &.js-check-invalid, &.checkbox {
+      float: left;
+      width: 200px;
+      padding: 5px;
+      width: 200px; }
+    &.js-check-invalid label {
+      background: none;
+      padding: 0px 0px 0px 5px;
+      font-weight: normal; } } }
+
+form.normal div {
+  &.cities-checkbox-block div.checkbox input {
+    margin: 0px; }
+  &.cities-block {
+    label {
+      width: 50px; }
+    margin: 0px 0px 15px 0px; }
+  &.cities-checkbox-block div.error-message {
+    float: left;
+    margin: 0;
+    width: 647px; } }
+
+div.attachment-delete-outer-block ul li {
+  float: left;
+  margin: 5px;
+  width: 112px;
+  position: relative;
+  border: 1px solid lighten($base-black, 87%);
+  padding: 5px;
+  div.checkbox input {
+    margin: 0px; }
+  span.delete-photo {
+    color: $base-red;
+    display: none;
+    position: absolute;
+    top: 13px;
+    right: 5px;
+    font-size: 11px; }
+  &:hover span.delete-photo {
+    color: $base-black;
+    display: block; } }
+
+/* chart style is begin */
+
+ul {
+  &.flow-chart li a, &.coupon-chart li a {
+    color: $base-white;
+    display: block;
+    font-size: 11px;
+    padding: 2px 5px 4px 3px;
+    font-weight: bold;
+    white-space: nowrap; }
+  &.flow-chart li a:hover, &.coupon-chart li a:hover {
+    text-decoration: underline; }
+  &.flow-chart {
+    padding: 50px 0px 32px 3px;
+    height: 73px;
+    overflow: hidden; }
+  &.flow-chart>li {
+    float: left; }
+  &.pause, &.open {
+    position: relative; } }
+
+li.open {
+  position: relative; }
+
+ul {
+  &.canceled, &.rejected-link {
+    position: relative; } }
+
+div.newdeal-top-block {
+  position: relative; }
+
+ul {
+  &.refunded, &.tipped, &.draft {
+    position: relative; } }
+
+li.upcoming1 {
+  position: relative; }
+
+ul {
+  &.pending, &.rejected-link {
+    position: relative; } }
+
+li.rejected {
+  position: relative; }
+
+ul {
+  &.closed-link, &.closed-link1, &.paid-company, &.paid-company1 {
+    position: relative; }
+  &.pending {
+    left: 88px;
+    top: -86px; }
+  &.rejected-link {
+    left: 181px;
+    top: -50px; } }
+
+*+html ul {
+  &.rejected-link {
+    height: 110px; }
+  &.draft {
+    top: -205px; } }
+
+ul.rejected-link li.rejected {
+  left: -158px;
+  top: -41px; }
+
+li.tipped {
+  left: 14px;
+  top: -60px; }
+
+ul {
+  &.closed-link {
+    left: 125px;
+    top: -28px; }
+  &.closed-link1 {
+    left: 25px;
+    top: -1px; }
+  &.paid-company {
+    left: 98px;
+    top: -23px; }
+  &.paid-company1 {
+    left: 158px;
+    top: -23px; } }
+
+li.upcoming1 {
+  left: -29px;
+  top: -74px;
+  display: none; }
+
+ul.draft {
+  left: 117px;
+  top: -245px; }
+
+.hidden-link {
+  display: none; }
+
+ul {
+  &.deal-chart span.new-deal span.new-deal-r {
+    color: lighten($base-black, 20%); }
+  &.deal-chart>li {
+    float: left; }
+  &.draft-list {
+    float: left;
+    margin: 0px 0px 0px 16px; }
+  &.coupon-chart span.used {
+    height: 23px;
+    display: block;
+    float: left; } }
+
+span {
+  &.refunded, &.expired, &.canceled, &.paid, &.closed, &.tipped, &.open, &.rejected, &.upcoming, &.new-deal, &.draft-link, &.pending-approval {
+    height: 23px;
+    display: block;
+    float: left; }
+  &.new-deal span.new-deal-r, &.refunded a, &.expired a, &.canceled a, &.paid a, &.closed a, &.tipped a, &.open a, &.rejected a, &.upcoming a, &.new-deal a, &.draft-link a, &.pending-approval a {
+    display: block; }
+  &.new-deal {
+    background: url(../img/site-specific-sprite.png) no-repeat left -2px;
+    padding: 0px 0px 0px 3px;
+    margin: 10px 10px 0px 0px;
+    span.new-deal-r {
+      background: url(../img/site-specific-sprite.png) no-repeat right -28px;
+      padding: 3px 5px 10px 4px;
+      display: block;
+      height: 20px;
+      font-weight: bold; } }
+  &.refunded, &.expired, &.canceled, &.paid, &.closed, &.tipped, &.pause, &.open, &.draft-link, &.pending-approval, &.upcoming, &.rejected {
+    padding: 0px 0px 0px 3px; }
+  &.draft-link {
+    background: url(../img/site-specific-sprite.png) no-repeat left -581px;
+    padding: 0px 0px 0px 3px;
+    a {
+      background: url(../img/site-specific-sprite.png) no-repeat right -608px; } }
+  &.pending-approval {
+    background: url(../img/site-specific-sprite.png) no-repeat left -369px;
+    padding: 0px 0px 0px 3px;
+    a {
+      background: url(../img/site-specific-sprite.png) no-repeat right -395px; } }
+  &.upcoming {
+    background: url(../img/site-specific-sprite.png) no-repeat left -422px;
+    a {
+      background: url(../img/site-specific-sprite.png) no-repeat right -448px;
+      display: block; } }
+  &.rejected {
+    background: url(../img/site-specific-sprite.png) no-repeat left -474px;
+    a {
+      background: url(../img/site-specific-sprite.png) no-repeat right -500px; } }
+  &.open {
+    background: url(../img/site-specific-sprite.png) no-repeat left -265px;
+    a {
+      background: url(../img/site-specific-sprite.png) no-repeat right -290px; } }
+  &.pause {
+    background: url(../img/site-specific-sprite.png) no-repeat left -581px;
+    a {
+      background: url(../img/site-specific-sprite.png) no-repeat right -608px; } }
+  &.tipped {
+    background: url(../img/site-specific-sprite.png) no-repeat left -161px;
+    a {
+      background: url(../img/site-specific-sprite.png) no-repeat right -187px; } }
+  &.closed {
+    background: url(../img/site-specific-sprite.png) no-repeat left -108px;
+    a {
+      background: url(../img/site-specific-sprite.png) no-repeat right -134px;
+      display: block; } }
+  &.paid {
+    background: url(../img/site-specific-sprite.png) no-repeat left -315px;
+    a {
+      background: url(../img/site-specific-sprite.png) no-repeat right -341px; } }
+  &.canceled {
+    background: url(../img/site-specific-sprite.png) no-repeat left -54px;
+    a {
+      background: url(../img/site-specific-sprite.png) no-repeat right -81px; } }
+  &.expired {
+    background: url(../img/site-specific-sprite.png) no-repeat left -214px;
+    a {
+      background: url(../img/site-specific-sprite.png) no-repeat right -240px; } }
+  &.refunded {
+    background: url(../img/site-specific-sprite.png) no-repeat left -527px;
+    a {
+      background: url(../img/site-specific-sprite.png) no-repeat right -554px; } } }
+
+div {
+  &.newdeal-block {
+    background: url(../img/site-specific-sprite.png) no-repeat 66px -840px;
+    padding: 0px 40px 0px 0px; }
+  &.newdeal-bottom-block {
+    background: url(../img/site-specific-sprite.png) no-repeat 138px -644px;
+    padding: 0px 0px 40px 0px; } }
+
+*+html div.newdeal-bottom-block {
+  background: url(../img/site-specific-sprite.png) no-repeat 138px -644px;
+  width: 200px; }
+
+div {
+  &.newdeal-top-block {
+    background: url(../img/site-specific-sprite.png) no-repeat 29px -1057px;
+    top: -1px; }
+  &.pending-block {
+    background: url(../img/site-specific-sprite.png) no-repeat 150px -1004px;
+    padding: 0px 47px 0px 0px;
+    height: 28px; }
+  &.open-block {
+    background: url(../img/site-specific-sprite.png) no-repeat 68px -925px;
+    padding: 0px 52px 0px 0px;
+    height: 28px; }
+  &.open-top-block {
+    background: url(../img/site-specific-sprite.png) no-repeat 76px -1506px;
+    padding: 23px 0px 0px 0px; }
+  &.open-top1-block {
+    background: url(../img/site-specific-sprite.png) no-repeat 209px -1254px; }
+  &.open-bottom-block {
+    background: url(../img/site-specific-sprite.png) no-repeat 52px -1172px;
+    height: 60px; }
+  &.pending-top-block {
+    background: url(../img/site-specific-sprite.png) no-repeat 58px -675px;
+    padding: 22px 0px 0px 0px; }
+  &.pending-bottom-block {
+    background: url(../img/site-specific-sprite.png) no-repeat 127px -721px;
+    height: 72px; } }
+
+li.draft {
+  background: url(../img/site-specific-sprite.png) no-repeat 68px -847px; }
+
+ul.rejected-link {
+  background: url(../img/site-specific-sprite.png) no-repeat 132px -1383px; }
+
+div.tipped1-block {
+  background: url(../img/site-specific-sprite.png) no-repeat 81px -10px;
+  height: 30px;
+  padding: 0px 30px 0px 0px;
+  float: left; }
+
+li {
+  &.expired, &.canceled {
+    background: url(../img/site-specific-sprite.png) no-repeat left top; } }
+
+ul {
+  &.refunded, &.tipped {
+    left: 48px;
+    top: -102px; }
+  &.refunded {
+    left: 104px;
+    top: -80px; }
+  &.coupon-chart span.used {
+    background: url("../img/site-specific-sprite.png") no-repeat left -1883pX;
+    padding: 0px 0px 0px 3px;
+    a {
+      background: url("../img/site-specific-sprite.png") no-repeat right -1934px; } }
+  &.canceled {
+    left: 115px;
+    top: -63px; }
+  &.canceled-block {
+    left: 115px;
+    top: -116px; }
+  &.refunded>li {
+    background: url(../img/site-specific-sprite.png) no-repeat 0 -1004px;
+    float: left;
+    padding: 0px 0px 0px 44px; }
+  &.tipped>li {
+    background: url(../img/site-specific-sprite.png) no-repeat 0 -847px;
+    float: left;
+    padding: 0px 0px 0px 22px; }
+  &.refunded li.expired, &.tipped li.tipped1 {
+    background: none;
+    padding: 0px; } }
+
+li.open {
+  left: -79px;
+  top: -25px; }
+
+ul.coupon-available li.open {
+  left: 19px; }
+
+li.open1 {
+  background: url(../img/site-specific-sprite.png) no-repeat 209px -1254px;
+  width: 450px; }
+
+ul {
+  &.draft>li {
+    float: left;
+    padding: 0px 22px 0px 0px; }
+  &.open {
+    top: 0px;
+    left: 0px; }
+  &.open1 {
+    top: -43px; }
+  &.pause {
+    left: -8px;
+    top: -19px; }
+  &.tipped-block {
+    top: -144px;
+    left: 76px;
+    li.closed {
+      background: none;
+      padding: 0px; } }
+  &.refunded-block {
+    top: -124px; }
+  &.canceled-block {
+    left: 115px;
+    top: -107px; }
+  &.draft-block {
+    top: -289px;
+    width: 267px; } }
+
+div {
+  &.pause-top-block {
+    height: 44px; }
+  &.pause-bottom-block {
+    background: url(../img/site-specific-sprite.png) no-repeat 16px -654px;
+    height: 44px; }
+  &.pause-top-block {
+    background: url(../img/site-specific-sprite.png) no-repeat 56px -743px; } }
+
+ul.rejected-link>li {
+  float: left; }
+
+/* users profile page style is begin */
+
+.profile-image {
+  background: url("../img/common-sprite.png") no-repeat scroll -25px -759px transparent;
+  height: 152px;
+  padding: 17px 0 0;
+  position: absolute;
+  right: 51px;
+  text-align: center;
+  width: 143px;
+  top: 165px; }
+
+div {
+  &.photo-options div.radio label {
+    display: none; }
+  &.profile-image p {
+    text-align: center;
+    margin: 5px 0px 0px 0px; }
+  &.photo-upload-block {
+    position: relative;
+    div.near-deal-buy-block a.button {
+      font-size: 11px;
+      margin: 0; } }
+  &.dashboard-block1 div.photo-upload-block div.near-deal-buy-block a.button {
+    padding: 8px 15px; } }
+
+h3.connected-info {
+  color: lighten($base-black, 30%);
+  font-size: 12px;
+  padding: 0px 0px 10px 0px; }
+
+div {
+  &.dashboard-inner-block {
+    border: 1px solid lighten($base-black, 87%);
+    margin: 10px 0px;
+    padding: 5px 10px 10px 10px; }
+  &.photo-upload-block1 div {
+    &.dashboard-inner-block {
+      float: left;
+      width: 288px;
+      margin: 10px;
+      text-align: center;
+      min-height: 115px;
+      padding: 30px 0px 20px 0px; }
+    &.photo-options div.radio input {
+      margin: 16px 0px 0px 134px; } }
+  &.connect-link-block h3 {
+    color: $base-blue; }
+  &.dashboard-inner-block1 {
+    width: 290px; } }
+
+form.normal div.dashboard-inner-block div.file input {
+  margin: 0px; }
+
+div {
+  &.dashboard-inner-block h4 {
+    margin: 20px 0 10px; }
+  &.photo-options {
+    position: absolute;
+    div.radio input {
+      margin: 16px 0 0 120px;
+      &#UserProfileImageId2 {
+        margin: 0px 0 0 304px; }
+      &#UserProfileImageId3 {
+        margin: 0 0 0 276px; } } }
+  &.photo-upload-block1 div.submit-block {
+    margin: 10px 0px 10px 442px; } }
+
+/* Admin Dashboard and user highlight style is begin */
+
+span {
+  &.total-pending-request-highlights, &.total-paid-highlights, &.total-earned-highlights, &.all-deal-highlights, &.paidtocompany-deal-highlights, &.closed-deal-highlights, &.tipped-deal-highlights, &.open-deal-highlights, &.draft-deal-highlights, &.pending-deal-highlights {
+    background: #74B732;
+    color: $base-blue;
+    display: inline-block;
+    padding: 2px 8px;
+    margin: 0px auto;
+    border: 1px solid lighten($base-black, 87%);
+    font-weight: bold; }
+  &.total-pending-request-highlights a, &.total-paid-highlights a, &.total-earned-highlights a, &.all-deal-highlights a, &.paidtocompany-deal-highlights a, &.closed-deal-highlights a, &.tipped-deal-highlights a, &.open-deal-highlights a, &.draft-deal-highlights a, &.pending-deal-highlights a {
+    color: $base-blue; }
+  &.closed-deal-highlights a {
+    color: $base-white; }
+  &.total-pending-request-highlights a:hover, &.total-paid-highlights a:hover, &.total-earned-highlights a:hover, &.all-deal-highlights a:hover, &.paidtocompany-deal-highlights a:hover, &.closed-deal-highlights a:hover, &.tipped-deal-highlights a:hover, &.open-deal-highlights a:hover, &.draft-deal-highlights a:hover, &.pending-deal-highlights a:hover {
+    text-decoration: underline; }
+  &.draft-deal-highlights {
+    background: #f2a640; }
+  &.pending-deal-highlights {
+    background: #F7F6A2; }
+  &.open-deal-highlights, &.tipped-deal-highlights {
+    background: #99F9CB; }
+  &.closed-deal-highlights {
+    background: #68BFEF; }
+  &.paidtocompany-deal-highlights {
+    background: #4585a3; }
+  &.all-deal-highlights {
+    background: #914d14; } }
+
+div {
+  &.all-deal-block {
+    text-align: center; }
+  &.admin-select-block a {
+    margin: 0px 2px;
+    text-decoration: underline;
+    &:hover {
+      text-decoration: none; } } }
+
+span {
+  &.total-earned-highlights {
+    background: #99F9CB; }
+  &.total-paid-highlights {
+    background: #FDCBCB; }
+  &.total-pending-request-highlights {
+    background: #F7F6A2; } }
+
+form.normal div.text input[type="hidden"] {
+  display: none; }
+
+ol.company-address-list li {
+  float: left;
+  width: 167px;
+  border: 1px solid lighten($base-black, 87%);
+  padding: 10px;
+  margin: 5px 5px 5px 7px;
+  &:hover {
+    background: #FCFFFF;
+    border: 1px solid #35C5D4; } }
+
+li.ui-state-processing em {
+  background: transparent url(../img/loading.gif) no-repeat left bottom;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 16px;
+  height: 16px; }
+
+div {
+  &.page-count-block {
+    padding: 0px 0px 0px 0px; }
+  &.error-block {
+    border-top: 2px solid lighten($base-black, 87%);
+    padding: 10px 0px 10px 0px;
+    h2 {
+      color: $base-black;
+      padding: 10px 0px; } } }
+
+form.search-form div.select select {
+  height: 26px;
+  margin: 9px 0 0;
+  padding: 0; }
+
+div.deal-img-block {
+  img {
+    width: 100%;
+    height: 100%; }
+  width: 166px; }
+
+span {
+  &.timepicker_button_trigger1, &.timepicker_button_trigger2, &.timepicker_button_trigger3, &.timepicker_button_trigger4, &.timepicker_button_trigger300, &.timepicker_button_trigger301 {
+    background: url("../img/common-sprite.png") no-repeat scroll -10px -9018px transparent;
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    margin: 5px 0 0 2px;
+    cursor: pointer; } }
+
+a.diagnostics {
+  font-weight: bold; }
+
+form {
+  &.add-live-form div {
+    &.deal-discount-form-block1 div.input {
+      width: 112px;
+      float: left; }
+    &.deal-discount-form-block-right div.discount-form-block div.input {
+      width: auto;
+      float: none; } }
+  &.normal div.deal-discount-form-block-right div.deal-discount-form-block1 div.input span.currency {
+    float: left;
+    width: 11px; }
+  &.add-live-form div.deal-discount-form-block-right div {
+    &.discount-form-block div.input input {
+      float: left;
+      height: 15px;
+      margin: -4px 0px 0px 0px;
+      padding: 5px 0px;
+      width: 60px; }
+    &.input label {
+      font-size: 11px;
+      font-weight: bold;
+      width: 155px;
+      float: left;
+      padding: 0px 0px 0px 15px; }
+    &.discount-price label {
+      width: 130px; } } }
+
+div {
+  &.deal-discount-form-block-left {
+    float: left;
+    width: 69%; }
+  &.deal-discount-form-block-right {
+    float: right;
+    width: 279px;
+    border: 4px solid darken($base-white, 15%); } }
+
+dl.budget-list {
+  padding: 4px 0px 0px 21px;
+  border-top: 1px solid lighten($base-black, 87%); }
+
+div.deal-discount-form-block-right dl.budget-list {
+  dt, dd {
+    font-size: 11px;
+    color: $base-blue; } }
+
+dl.budget-list {
+  dt {
+    width: 170px; }
+  dd {
+    width: 50px; } }
+
+div {
+  &.map-address-left-block {
+    margin: 0px 0px 10px 63px;
+    div {
+      &.select select, &.text input {
+        margin: 0px 5px 0px 136px; }
+      &.input label {
+        width: 105px; } } }
+  &#js-geo-fail-address-fill-block h3 {
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px 0px 0px 0px; }
+  &.credentials-info-block {
+    margin: 20px 0px 0px 0px; }
+  &.credentials-left {
+    background: url("../img/common-sprite.png") no-repeat scroll left -10850px;
+    float: left;
+    height: 53px;
+    margin: 5px 0 0;
+    width: 185px; }
+  &.credentials-right-block {
+    float: left;
+    width: auto; }
+  &.credentials-right {
+    background: url("../img/common-sprite.png") no-repeat scroll -119px -10911px;
+    height: 31px;
+    margin: 0 0 0 6px;
+    padding: 11px 0 25px;
+    a {
+      font-weight: bold;
+      padding: 0px 0px 0px 40px;
+      display: block;
+      font-size: 12px;
+      height: 32px;
+      span {
+        display: block;
+        margin: 0px 0px 0px 0px;
+        padding: 0px; }
+      &.facebook-link {
+        background: url("../img/common-sprite.png") no-repeat scroll left -4951px transparent; }
+      &.twitter-link {
+        background: url("../img/common-sprite.png") no-repeat scroll left -4301px transparent; }
+      &.foursquare-link {
+        background: url("../img/common-sprite.png") no-repeat scroll -1px -4810px transparent; } } } }
+
+span.small-info {
+  background: url("../img/common-sprite.png") no-repeat scroll -1px -5796px transparent;
+  text-indent: -3000em;
+  text-align: left;
+  display: block;
+  width: 18px;
+  height: 18px;
+  margin: 3px 0 0 128px; }
+
+form.normal div.more {
+  background: none; }
+
+ul.pending-approval1 {
+  display: none; }
+
+.refer-box {
+  background: #F9F9F9;
+  border: 1px solid #4BC1DE;
+  margin: 0 0 0 7px;
+  width: 457px;
+  height: 20px; }
+
+div.affiliatecashwithdrawal-block {
+  span.info {
+    margin: 0px 5px 0px 94px; }
+  div {
+    &.text input {
+      margin: 0px 5px 0px 94px; }
+    &.submit {
+      margin: 14px 0px 0px 0px; } } }
+
+form.normal div.affiliatecashwithdrawal-block {
+  span.currency {
+    margin: 0px 3px 0px 93px; }
+  label {
+    padding: 8px 0px 5px 12px; } }
+
+table.list span.info {
+  margin: 5px 0px 10px 0px; }
+
+.admin-status-0 a, .admin-status-1 a {
+  display: block;
+  width: 17px;
+  height: 18px;
+  text-indent: -3000em;
+  margin: 0px auto; }
+
+.admin-status-0 a {
+  background: url("../img/admin-sprite.png") no-repeat -2px -13275px; }
+
+.admin-status-1 a {
+  background: url("../img/admin-sprite.png") no-repeat -2px -13216px; }
+
+div {
+  &.mapinfo-left {
+    float: left;
+    width: 755px; }
+  &#subscriptions-add {
+    position: static; }
+  &#colorbox {
+    table.list {
+      width: 600px;
+      margin: 0px; }
+    p.paging-count {
+      padding: 10px 0px; } }
+  &.deal-price-point-chart {
+    float: left;
+    width: 100%;
+    height: 300px; }
+  &.admin-dashboard-chart, &.admin-dashboard-edu-chart, &.admin-dashboard-coupon-usage-chart {
+    float: left;
+    width: 100%;
+    height: 375px; }
+  &.chart-full-section {
+    width: 98.9%;
+    margin: 5px;
+    float: left; }
+  &.admin-dashboard-edu-chart {
+    height: 400px; }
+  &.admin-dashboard-coupon-usage-chart {
+    width: 100%; }
+  &.company-dashboard-chart, &.company-dashboard-edu-chart {
+    float: left;
+    width: 100%;
+    height: 375px; }
+  &.company-dashboard-coupon-usage-chart {
+    float: left;
+    width: 100%;
+    height: 375px;
+    width: 100%; } }
+
+/* admin stats style is begin */
+
+h2.chart-dashboard-title span {
+  cursor: pointer;
+  display: block;
+  height: 36px;
+  width: 98%;
+  margin: 1px 10px;
+  left: 0px;
+  top: 0px;
+  position: absolute; }
+
+#companies-dashboard h2.chart-dashboard-title span {
+  margin: 2px 10px 1px 10px; }
+
+h2.chart-dashboard-title {
+  background: url("../img/admin-sprite.png") no-repeat scroll -7px -9115px transparent;
+  font-size: 14px;
+  padding: 11px 0 4px 33px;
+  position: relative;
+  span {
+    &.up-arrow {
+      background: url("../img/admin-sprite.png") no-repeat scroll right -12976px transparent; }
+    &.down-arrow {
+      background: transparent url(../img/admin-sprite.png) no-repeat right -13235px; } } }
+
+div {
+  &.company-dashboard-user-chart {
+    width: 100%; }
+  &.company-dashboard-edu-chart {
+    height: 420px; }
+  &.admin-stats-block {
+    margin: 0px 0px 5px 0px; }
+  &.dashboard-center-block .language-form div.select select {
+    width: 102px; }
+  &.deal-stats-user-chart {
+    float: left;
+    width: 100%;
+    height: 375px; }
+  &.deal-purchased-user-map {
+    width: 100%;
+    height: 400px; } }
+
+/* common for both admin && company */
+
+/* action  tabel-row style is begin */
+
+table.list tr {
+  &.active-row {
+    &:hover td.paid-amount, td.paid-amount, &:hover td.site-amount {
+      background: #3fcedd url(../img/table-active-bg1.png) repeat-x left bottom;
+      color: $base-white;
+      border: none;
+      position: relative;
+      padding: 4px 4px 10px 4px; }
+    td {
+      &.site-amount {
+        background: #3fcedd url(../img/table-active-bg1.png) repeat-x left bottom;
+        color: $base-white;
+        border: none;
+        position: relative;
+        padding: 4px 4px 10px 4px; }
+      background: #3fcedd url(../img/table-active-bg1.png) repeat-x left bottom;
+      color: $base-white;
+      border: none;
+      position: relative;
+      padding: 4px 4px 10px 4px; } }
+  &.expand-row td {
+    cursor: pointer; } }
+
+span.deal-atatus-info, table.list tr td.deal-name span {
+  margin: 5px 3px 0px 3px; }
+
+span {
+  &.deal-atatus-info {
+    padding: 1px;
+    width: 7px;
+    height: 7px;
+    float: left;
+    display: block;
+    text-indent: -3000em; }
+  &.deal-status-open {
+    background: #74B732; }
+  &.deal-status-rejected {
+    background: #E21E1E; }
+  &.deal-status-pendingapproval {
+    background: #BE7125; }
+  &.deal-status-draft {
+    background: #FA9116; }
+  &.deal-status-upcoming {
+    background: #C576D3; }
+  &.deal-status-canceled {
+    background: #FD66B5; }
+  &.deal-status-expired {
+    background: #929292; }
+  &.deal-status-tipped {
+    background: #3F83B2; }
+  &.deal-status-closed {
+    background: #444444; }
+  &.deal-status-refunded {
+    background: #DEB700; }
+  &.deal-status-paidtomerchant {
+    background: #00B0C6; } }
+
+table.list {
+  tr {
+    &.active-row {
+      border: none;
+      td {
+        border: none;
+        div.deal-bought-info .progress-value span, a {
+          color: $base-white; } }
+      div.user-status-block span.email-comfirmed {
+        color: $base-white; }
+      td a:hover {
+        color: $base-black; } }
+    &:hover td.action-block {
+      text-align: left;
+      background: #E2FBFE;
+      border-bottom: 2px solid #9dd7dd;
+      border-top: none;
+      font-size: 102%; } }
+  td.action-block {
+    text-align: left;
+    background: #E2FBFE;
+    border-bottom: 2px solid #9dd7dd;
+    border-top: none;
+    font-size: 102%; } }
+
+div.company-info-block {
+  span, a {
+    float: left; } }
+
+a.url, div.company-info-block span {
+  display: block;
+  margin: 3px 3px 3px 0px; }
+
+a.url {
+  width: 16px;
+  height: 16px;
+  text-indent: -3000em;
+  margin: 5px 3px 0px 0px;
+  background: url("../img/common-sprite.png") no-repeat scroll -4px -4440px transparent; }
+
+div {
+  &.action-info-block {
+    background: transparent url(../img/action-separator.png) repeat-y 19% top;
+    font-size: 1em; }
+  &.action-left-block, &.action-right-block {
+    float: left; }
+  &.action-left-block {
+    ul li {
+      margin: 8px 0px 5px 0px; }
+    width: 16%;
+    margin: 0px 18px; }
+  &.action-right-block {
+    width: 79%; }
+  &.action-info-block h3 {
+    font-size: 11px;
+    color: #1fa6c8;
+    border-bottom: 1px solid #9dd7dd;
+    padding: 5px 0px;
+    margin: 5px 0px 15px 0px;
+    &.private-note-title {
+      font-size: 11px;
+      color: #4C6A74;
+      float: left;
+      margin: 17px 10px 0px 10px;
+      border: none; } }
+  &.action-right {
+    float: left;
+    width: 29%;
+    margin: 0px 17px 0px 17px; }
+  &.deal-action-right-block div.action-right {
+    width: 29%;
+    margin: 0px 7px 0px 13px; }
+  &.action-right-block div.city-action {
+    width: 93%;
+    margin: 25px 0px 0px 11px;
+    dl {
+      dt {
+        width: 35px;
+        &.merchant {
+          color: $base-blue;
+          margin: 0 0 0 8px;
+          width: 70px; } }
+      dd {
+        width: 68%; } } }
+  &.deal-action-right-block {
+    width: 57%; }
+  &.action-right4 {
+    width: 18%; }
+  &.action-right1 {
+    position: relative;
+    div.chart-deal {
+      position: absolute;
+      right: 1%;
+      top: 50px; } }
+  &.action-right3 {
+    margin: 0px 0px 0px 17px; }
+  &.action-right ul li {
+    margin: 5px 0px; }
+  &.action-right-block dl {
+    dt, dd {
+      min-height: 25px;
+      float: left; }
+    dt {
+      width: 67%;
+      font-weight: bold;
+      font-size: 1em; }
+    dd {
+      width: 33%;
+      font-size: 1em; } }
+  &.action-right4 dl dt {
+    width: 48%; }
+  &.branch-address-block {
+    margin: 0px 20px;
+    ul li {
+      margin: 6px 0px 5px 0px;
+      background: url("../img/common-sprite.png") no-repeat -4px -3598px;
+      padding: 0px 0px 0px 9px; } } }
+
+#js-expand-table {
+  div.arrow {
+    background: transparent url(../img/hide-arrow.png) no-repeat left 0px;
+    width: 14px;
+    height: 6px;
+    float: left;
+    margin: 3px 0px 0px 0px; }
+  tr.active-row div.arrow {
+    background: transparent url(../img/show-arrow.png) no-repeat left 0px; }
+  div.input {
+    margin: 0px;
+    padding: 0px; }
+  td.select-block {
+    width: 42px; } }
+
+div {
+  &.private-note {
+    height: 52px;
+    overflow-y: scroll;
+    width: 500px;
+    padding: 3px;
+    margin: 5px 0px 0px 10px;
+    background: $base-white;
+    float: left; }
+  &.deal-count {
+    margin: 0px 0px 2px 0px; }
+  &.sub-deal-links {
+    a {
+      float: right; }
+    padding: 10px; }
+  &.view-more {
+    margin: 7px 0px 5px 0px;
+    span {
+      float: left;
+      background: transparent url(../img/view-more.png) no-repeat left top;
+      line-height: 15px;
+      padding: 0px 6px 2px 18px;
+      font-size: 10px;
+      color: $base-white;
+      display: block;
+      cursor: pointer;
+      &:hover {
+        color: $base-black; } } } }
+
+/* filter list style is begin */
+
+ul.filter-list {
+  li {
+    float: left;
+    margin: 4px 5px 6px; }
+  a {
+    padding: 1px 3px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -o-border-radius: 3px;
+    display: block;
+    color: $base-white;
+    font-size: 11px;
+    font-weight: bold;
+    &:hover {
+      color: #EFF0F2; } }
+  li.active a {
+    color: $base-blue; } }
+
+li {
+  &.filter-admin a:hover, &.filter-all a:hover {
+    color: lighten($base-black, 25%); } }
+
+.filter-active a {
+  background: #0E910E; }
+
+.filter-inactive a {
+  background: #DF5958; }
+
+.filter-openid a {
+  background: #AAA8A5; }
+
+.filter-facebook a {
+  background: #3B5998; }
+
+.filter-twitte a {
+  background: #53D4FF; }
+
+.filter-foursquare a {
+  background: #AC379B; }
+
+.filter-gmail a {
+  background: #2A91C9; }
+
+.filter-yahoo a {
+  background: #7B0099; }
+
+.filter-iphone a {
+  background: #727170; }
+
+.filter-affiliate a {
+  background: #9BC937; }
+
+li {
+  &.all a {
+    background: $base-white;
+    border: 1px solid lighten($base-black, 87%);
+    color: $base-black;
+    &:hover {
+      color: lighten($base-black, 20%); } }
+  &.gifted a {
+    background: #C575D2; }
+  &.received a {
+    background: #00B0C7; }
+  &.filter-admin a {
+    background: #FFF830;
+    color: $base-black; } }
+
+.filter-android a {
+  background: #65AD89; }
+
+.filter-giftcard a {
+  background: #B56414;
+  background: #B56414; }
+
+.filter-online a {
+  background: #24D624; }
+
+.filter-offline a {
+  background: #676867; }
+
+li.filter-all a {
+  border: 1px solid darken($base-white, 15%);
+  color: $base-black; }
+
+div.filter-list-info {
+  margin: 85px 10px 0px 0px; }
+
+/*Background image to be auto-resized to window... */
+
+#bg-stretch-autoresize, #bg-stretch, #bg-repeat {
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1; }
+
+#bg-stretch img {
+  height: 100%;
+  width: 100%; }
+
+#bg-repeat img {
+  display: none; }
+
+/* coupon start style is begin */
+
+ul {
+  &.coupon-chart {
+    overflow: hidden;
+    height: 118px; }
+  &.coupon-cancel li.refunded, &.expired-block li.closed {
+    position: relative; }
+  &.coupon-cancel {
+    position: relative;
+    li {
+      &.canceled, &.open {
+        position: relative; } }
+    ul.expired-block {
+      position: relative; } }
+  &.expired-block li.expired {
+    position: relative; }
+  &.coupon-canceled {
+    left: -15px;
+    position: relative;
+    top: -34px; }
+  &.coupon-chart ul {
+    &.expired-block, &.coupon-cancel {
+      position: static; } }
+  &.coupon-available {
+    left: 145px;
+    position: relative;
+    top: -37px; } }
+
+*+html ul.coupon-available {
+  left: 58px; }
+
+ul.coupon-refunded {
+  left: 71px;
+  position: relative;
+  top: -109px;
+  width: 128px; }
+
+*+html ul.coupon-refunded {
+  left: -5px;
+  top: -106px; }
+
+ul {
+  &.coupon-canceled li.canceled {
+    background: none; }
+  &.expired-block li {
+    &.expired {
+      left: -25px;
+      top: -32px;
+      background: none; }
+    &.closed {
+      left: 71px;
+      top: 20px; } } }
+
+*+html ul.expired-block li.closed {
+  top: 27px; }
+
+div {
+  &.coupon-bottom-block {
+    padding: 41px 0px 41px 0px; }
+  &.coupon-top-block {
+    background: transparent url(../img/site-specific-sprite.png) no-repeat 43px -1648px; }
+  &.coupon-bottom-block {
+    background: transparent url(../img/site-specific-sprite.png) no-repeat 43px -1595px; }
+  &.coupon-inner-block {
+    background: transparent url(../img/site-specific-sprite.png) no-repeat 88px -1807px; }
+  &.deal-date-info {
+    margin: 20px 0px 0px 0px; }
+  &.save-draft-block {
+    float: left;
+    margin: 7px 0 0 6px;
+    input {
+      border: none;
+      background: none;
+      color: $base-blue;
+      cursor: pointer;
+      padding: 0px;
+      font-size: 13px;
+      margin: 0px 3px;
+      float: left;
+      font-weight: bold; }
+    span.info {
+      float: left;
+      margin: -3px 0 0 5px; }
+    input:hover {
+      color: $base-black; } }
+  &.widget-affiliate-information-block {
+    h2 {
+      margin: 10px 0px 0px 0px; }
+    margin: 0px 0px 10px 0px; } }
+
+/** Gift card styles */
+
+.gift-card {
+  background: url("../img/blue-theme/gift-card.png") no-repeat left top;
+  height: 335px;
+  margin: 0 0 0 2px; }
+
+div.gift-side1 {
+  float: left;
+  font-size: 11px;
+  margin: 98px 0 0 10px;
+  padding: 0 0 0 5px;
+  text-align: center;
+  width: 171px; }
+
+p.sitename-info {
+  margin: 10px 0 0; }
+
+div.gift-side2 {
+  float: left;
+  margin: 101px 2px 0 15px;
+  width: 250px; }
+
+.giftcard-bg {
+  background: url("../img/gift-card-bg.png") no-repeat scroll left top transparent;
+  height: 700px;
+  margin: 0 auto;
+  width: 890px;
+  div.register-block h2 {
+    color: $base-black;
+    font-size: 17px;
+    padding: 6px 10px; }
+  .gift-card {
+    background: none;
+    float: left;
+    width: 450px; }
+  div {
+    &.gift-side1 {
+      float: left;
+      margin: 158px 0 0 38px;
+      padding: 0 0 0 5px;
+      text-align: center;
+      width: 171px; }
+    &.gift-side2 {
+      float: left;
+      margin: 168px 0 0 10px;
+      width: 226px; } }
+  p.card-message {
+    background: #F7FBFF none repeat scroll 0 0;
+    border: 1px solid lighten($base-black, 87%);
+    height: 83px;
+    padding: 10px;
+    width: 200px;
+    color: $base-black; } }
+
+.gift-login {
+  float: left;
+  padding-top: 75px;
+  width: 200px; }
+
+h3.gift-title {
+  font-size: 12px;
+  margin: 5px 0 0px;
+  text-transform: capitalize; }
+
+.phone-head {
+  font-weight: bold; }
+
+p.card-amount {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0 0;
+  width: auto; }
+
+div.remeber-block {
+  line-height: 8px;
+  margin: 10px 0 0; }
+
+dl.card-info {
+  dt, dd {
+    float: left;
+    min-height: 15px; } }
+
+p.card-message {
+  color: $base-black;
+  font-size: 13px;
+  height: 147px;
+  line-height: 20px;
+  margin: 10px 20px 0 0;
+  overflow: auto;
+  width: 236px; }
+
+.giftcard-bg .register-block .deal {
+  left: -300px;
+  top: 250px; }
+
+dl.card-info {
+  dt {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    width: auto;
+    color: $base-black; }
+  dd {
+    margin: 2px 0 0 11px;
+    text-transform: capitalize;
+    width: 168px; } }
+
+.giftcard-bg .gift-login {
+  position: static;
+  margin: 75px 0 0 0; }
+
+div.giftcard-bg {
+  div {
+    &.giftcard-bg-left {
+      float: left;
+      width: 500px; }
+    &.submit-block {
+      margin: 0px; }
+    &.login-right-block {
+      border: none;
+      padding: 5px 0px;
+      margin: 163px 0 0;
+      border: 1px solid lighten($base-black, 87%); } }
+  p {
+    &.sitename-info {
+      font-size: 11px;
+      margin: 27px 0 0; }
+    &.card-amount {
+      margin: 12px 0 0; } }
+  h3.gift-title {
+    margin: 8px 0 5px 0; } }
+
+p.redemption-code-left {
+  float: left;
+  font-size: 11px;
+  margin: 8px 0 0;
+  width: 106px; }
+
+div.gift-card p {
+  &.redemption-code-left {
+    margin: 8px 0 0 20px;
+    width: auto; }
+  &.redemption-code-right {
+    height: auto;
+    margin: 0;
+    width: 90px; } }
+
+p.redemption-code-right {
+  background: $base-white none repeat scroll 0 0;
+  border: 1px solid lighten($base-black, 87%);
+  float: left;
+  height: 17px;
+  margin: 0;
+  overflow: auto;
+  padding: 4px;
+  text-align: left;
+  width: 277px; }
+
+div.giftcard-bg div.remeber-block {
+  margin: 46px 0 10px 27px; }
+
+table.list tr td.block-loader {
+  background: url("../img/loading.gif") no-repeat scroll 91% 6px; }
+
+div.admin-stats-block div.admin-center-block form.language-form {
+  margin: 5px 6px 6px 0; }
+
+li.paid span.small-info {
+  float: left;
+  margin: -17px 0 0 -22px; }
+
+/*  dashbrad round corner style is begin */
+
+div {
+  &.chart-half-section {
+    float: left;
+    margin: 10px 0.5% 4px 0.6%;
+    width: 48.8%; }
+  &.dashboard-tl {
+    background: transparent url(../img/round-corner-sprite.png) no-repeat 0 -539px; }
+  &.dashboard-tr {
+    background: transparent url(../img/round-corner-sprite.png) no-repeat right -555px; }
+  &.dashboard-tc {
+    background: transparent url(../img/round-corner-sprite.png) repeat-x left -570px;
+    height: 9px;
+    margin: 0px 11px; }
+  &.dashboard-cl {
+    background: transparent url(../img/dashboard-cl.png) repeat-y left top; }
+  &.dashboard-cr {
+    background: transparent url(../img/dashboard-cr.png) repeat-y right top; }
+  &.dashboard-cc {
+    background: $base-white;
+    margin: 0px 9px; }
+  &.dashboard-bl {
+    background: url("../img/common-sprite.png") no-repeat scroll left -9086px transparent; }
+  &.dashboard-br {
+    background: url("../img/common-sprite.png") no-repeat scroll right -9152px transparent; }
+  &.dashboard-bc {
+    background: transparent url(../img/round-corner-sprite.png) repeat-x left -786px;
+    height: 17px;
+    margin: 0px 95px; } }
+
+/** Progess bar styles */
+
+.bought-block p.progress-bar {
+  margin: 15px auto 0 auto;
+  text-align: left; }
+
+.progress-bar {
+  width: 180px;
+  background: $base-white;
+  height: 10px;
+  border: 1px solid #c5dcec;
+  position: relative;
+  span {
+    &.progress-status {
+      background: url("../img/common-sprite.png") repeat-x scroll -46px -11556px;
+      height: 10px;
+      float: left;
+      width: 0; }
+    &.arrow {
+      width: 8px;
+      height: 6px;
+      position: absolute;
+      top: -8px;
+      left: 0;
+      text-indent: -9999em;
+      margin: 0 0 0 -4px;
+      background: url(../img/progress-arrow.png) no-repeat left top; } } }
+
+.bought-block .progress-value {
+  width: 180px;
+  margin: 0px auto;
+  padding: 3px 0; }
+
+.progress-value span {
+  color: $base-black;
+  font-size: 20px;
+  float: left;
+  &.progress-to {
+    float: right; } }
+
+.progress-desc {
+  color: #007B9C; }
+
+div.deal-bought-info {
+  p.progress-bar {
+    background: url("../img/common-sprite.png") no-repeat -9px -9965px;
+    border: medium none;
+    height: 10px;
+    margin: 0 auto;
+    position: relative;
+    width: 97px; }
+  .bought-block .progress-value {
+    width: 106px; }
+  .progress-value {
+    width: 103px; } }
+
+.progress-bar span {
+  &.any-time-deal-progress, &.progress-status {
+    height: 10px;
+    float: left;
+    width: 0; } }
+
+div {
+  &.deal-bought-info {
+    .progress-value span {
+      font-size: 11px;
+      float: left;
+      &.progress-to {
+        float: right; } }
+    span.progress-status {
+      background: url("../img/common-sprite.png") no-repeat -7px -9913px; } }
+  &.deal-date-info span.progress-status {
+    background: url("../img/common-sprite.png") no-repeat -8px -10129px; } }
+
+.progress-bar span.any-time-deal-progress {
+  background: url("../img/common-sprite.png") no-repeat -9px -10159px; }
+
+form {
+  &.normal div.subscription-group-block {
+    padding-bottom: 10px;
+    div.select div.checkbox {
+      float: left;
+      width: 25%;
+      input {
+        margin: 0px; } } }
+  &.unsubscribe-form div.submit-block {
+    margin: 5px 0px; } }
+
+ol.multi-deal-list {
+  width: 620px; }
+
+span {
+  &.deal-add-info {
+    margin: 4px 0 0 238px; }
+  &.used-info {
+    float: left;
+    margin: 0px 5px; } }
+
+a.used {
+  float: left;
+  margin: 0px 5px; }
+
+span.used-info {
+  margin: 4px 0px 5px 5px; }

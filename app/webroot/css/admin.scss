@@ -1,0 +1,916 @@
+/* admin style is begin */
+
+div {
+  &.admin-content {
+    line-height: 130%;
+    font-size: 90%; }
+  &.admin-content-block {
+    background: white url(../img/admin-image/admin-bg.png) repeat-x left top;
+    width: 100%; }
+  &.admin-content h1 {
+    margin: 0.3% 0px 0px 0px;
+    padding: 0px; } }
+
+h2 {
+  padding: 1% 0px 0.8% 0%;
+  font-size: 127%;
+  color: $base-blue; }
+
+h3 {
+  color: #4B7799;
+  padding: 1% 0px 0.8% 1%;
+  font-size: 115%;
+  &.location-title {
+    color: #36404b; } }
+
+div.setting-details-info h3 {
+  padding: 1% 0px 1% 0%;
+  a {
+    font-size: 100%; } }
+
+h5 {
+  font-size: 95%;
+  padding: 0px 0 0 0px;
+  a {
+    font-size: 11px; } }
+
+div {
+  &.bgimg-input-block {
+    position: relative; }
+  &.bg-img-subscription {
+    height: 60px;
+    left: 129px;
+    position: absolute;
+    top: -2px;
+    width: 60px; } }
+
+.js .hide {
+  display: none; }
+
+div.admin-content div {
+  &#header {
+    margin: 0% 0% 0.5% 0%; }
+  &#main {
+    font-size: 75%; } }
+
+table.list {
+  width: 100%;
+  margin: 0px; }
+
+div.admin-content .profile-image {
+  right: 12%;
+  top: 340px; }
+
+body.admin .admin-container-24 {
+  width: 87%;
+  margin-left: 6%;
+  margin-right: 6%; }
+
+.admin-container-24 div.dashboard-side2 {
+  width: 20.833%; }
+
+/* menu style is begin */
+
+ul {
+  &.admin-links {
+    margin: 1.5% 0% 1% 0%;
+    border-bottom: 1px solid #D9DCDD;
+    padding: 0% 0% 0.5% 0%;
+    font-size: 90%; }
+  &.admin-links>li {
+    float: left;
+    position: relative;
+    font-size: 82%;
+    z-index: 10000;
+    margin: 0 0 0 -5px;
+    width: 10.2%;
+    &.subscriptions {
+      width: 9.5%; } }
+  &.admin-links li span {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    z-index: 10000;
+    &.sub-link-info {
+      height: auto;
+      color: lighten($base-black, 30%);
+      font-size: 10px; } } }
+
+span {
+  &.menu-center {
+    color: $base-blue;
+    font-size: 90%;
+    font-weight: bold; }
+  &.dashboard {
+    background: url("../img/admin-sprite.png") no-repeat scroll center -13328px transparent; }
+  &.admin-users {
+    background: url("../img/admin-sprite.png") no-repeat scroll center -14149px transparent; }
+  &.admin-company {
+    background: url("../img/admin-sprite.png") no-repeat scroll center -14044px transparent; }
+  &.admin-deals {
+    background: url("../img/admin-sprite.png") no-repeat scroll center -13501px transparent; }
+  &.admin-subscriptions {
+    background: url("../img/admin-sprite.png") no-repeat scroll center -14260px transparent; }
+  &.admin-payment {
+    background: url("../img/admin-sprite.png") no-repeat scroll center -13788px transparent; }
+  &.admin-charity {
+    background: url("../img/admin-sprite.png") no-repeat scroll center -13901px transparent; }
+  &.admin-topics {
+    background: url("../img/admin-sprite.png") no-repeat scroll center -13591px transparent; }
+  &.admin-setting {
+    background: url("../img/admin-sprite.png") no-repeat scroll center -13686px transparent; }
+  &.admin-masters {
+    background: url("../img/admin-sprite.png") no-repeat scroll center -13413px transparent; } }
+
+ul {
+  &.admin-links>li {
+    span.amenu-right {
+      padding: 0px 15px 0px 2px;
+      margin: 0px 0px 0px 10px; }
+    &.admin-active span {
+      &.amenu-left {
+        background: url(../img/admin-sprite.png) no-repeat 1px -10537px; }
+      &.amenu-right {
+        background: url(../img/admin-sprite.png) no-repeat right -10620px; } }
+    span.menu-center {
+      padding: 6px 0 0px 0;
+      text-align: center; }
+    &:hover span.amenu-left, &.admin-active:hover span.amenu-left {
+      background: url(../img/admin-sprite.png) no-repeat left -10731px; }
+    &:hover span.amenu-right, &.admin-active:hover span.amenu-right {
+      background: url(../img/admin-sprite.png) no-repeat right -10856px; }
+    span.menu-center span {
+      padding: 52px 0 8px 0; } }
+  &.admin-links li {
+    div.admin-sub-block {
+      position: absolute;
+      width: 287%;
+      z-index: 1;
+      display: none;
+      width: 230px;
+      background: url(../img/bg-menu.png) repeat right top; }
+    &.masters-block div.admin-sub-block {
+      width: 384px; }
+    &.setting-masters-block {
+      div.admin-sub-block {
+        width: 468px; }
+      ul.admin-sub-links li {
+        &.admin-sub-links-right {
+          width: 200px; }
+        &.admin-sub-links-left {
+          width: 216px; } } } }
+  &.admin-sub-links li {
+    &.admin-sub-links-left {
+      float: left;
+      width: 165px;
+      margin: 0px 18px 0px 0px;
+      border-right: 1px solid lighten($base-black, 87%); }
+    &.admin-sub-links-right {
+      float: left;
+      width: 160px; } }
+  &.admin-links li {
+    &.no-bor div.admin-sub-block {
+      left: 1px;
+      top: 78px; }
+    &.masters div.admin-sub-block {
+      right: -1px;
+      top: 78px; }
+    div {
+      &.admin-sub-lblock {
+        background: url(../img/admin-image/menu-left-repeat.png) repeat-y top left; }
+      &.admin-sub-rblock {
+        background: url(../img/admin-image/menu-right-repeat.png) repeat-y top right; }
+      &.admin-sub-cblock {
+        background: $base-white;
+        margin: 0px 5px; }
+      &.admin-bot-lblock {
+        background: url(../img/round-corner-sprite.png) no-repeat -2px -585px; }
+      &.admin-bot-rblock {
+        background: url(../img/round-corner-sprite.png) no-repeat right -597px; }
+      &.admin-bot-cblock {
+        background: url(../img/round-corner-sprite.png) repeat-x 8px -607px;
+        margin: 0px 10px;
+        height: 10px; } }
+    &:hover div.admin-sub-block {
+      display: block; }
+    div.admin-sub-block ul {
+      margin: 4px 0px 0px 0px;
+      border-top: 1px solid #1fa6c8;
+      padding: 10px 10px;
+      li.merchant-info {
+        a, span {
+          display: inline; } }
+      ul {
+        border-top: none;
+        padding: 0px; }
+      h4 {
+        padding: 4px 0px 0px 0px;
+        &.setting-title {
+          text-align: center; } }
+      li {
+        a {
+          display: block;
+          padding: 2px 0px;
+          border: 1px solid $base-white; }
+        &.setting-overview a {
+          padding: 3px 0px 3px 25px;
+          background: url(../img/admin-sprite.png) no-repeat -17px -3588px; }
+        &.customize-subscription a {
+          background: url("../img/admin-sprite.png") no-repeat scroll -4px -1445px transparent; }
+        &.setting-overview1 a {
+          float: right;
+          font-size: 13px;
+          font-weight: bold; }
+        &.setting-overview a:hover {
+          background: $base-lightblue url(../img/admin-sprite.png) no-repeat -17px -3588px; }
+        &.customize-subscription a:hover {
+          background: $base-lightblue url("../img/admin-sprite.png") no-repeat scroll -4px -1445px; }
+        a:hover {
+          background: #E5F6F9;
+          border: 1px solid #B7F9FF; } } } }
+  &.admin-menu {
+    float: right;
+    width: auto; }
+  &.admin-menu>li {
+    float: left;
+    margin: 4px 5px 0px 11px; }
+  &.admin-menu li {
+    a {
+      color: lighten($base-black, 69%);
+      font-size: 90%; }
+    &.view-site a, &.logout a, &:hover a, &.active a {
+      color: $base-white; }
+    &.view-site a:hover, &.logout a:hover {
+      color: #afafaf; }
+    &.view-site {
+      margin: 4px 18px 0px 11px; } }
+  &.admin-dashboard-links li small {
+    font-size: 9px;
+    line-height: 14px;
+    margin: 0px 0px 0px 4px; } }
+
+div.admin-content {
+  div.admin-bar {
+    background: none;
+    left: 0%;
+    position: static;
+    padding: 0%;
+    div {
+      float: left;
+      margin: 0px 1.5% 0px 0px;
+      font-size: 96%; }
+    h3 {
+      display: inline;
+      color: lighten($base-black, 30%);
+      font-size: 108%;
+      padding: 0px; } }
+  form.language-form {
+    float: right;
+    margin: 0.5% 0px 3% 0px;
+    label {
+      font-size: 11px; } } }
+
+p.admin-welcome-info {
+  font-size: 97%;
+  font-weight: bold; }
+
+div {
+  &.admin-content {
+    h1 a {
+      text-indent: 1px;
+      background: none;
+      height: auto;
+      color: #fefefe;
+      &:hover {
+        color: $base-blue; }
+      span {
+        font-weight: normal;
+        font-size: 81%;
+        margin: 0% 0% 0% 0.8%; } }
+    form.search-form {
+      width: 100%; }
+    div.add-block1 {
+      padding: 13px 0% 0% 10px; } }
+  &.admin-center-block {
+    border: 1px solid darken($base-white, 20%);
+    padding: 10px;
+    border-top: none;
+    background: $base-white;
+    margin: 0px 0px 10px 0px; }
+  &.admin-side1-tl {
+    background: url(../img/round-corner-sprite.png) no-repeat left -622px; }
+  &.admin-side1-tr {
+    background: url(../img/round-corner-sprite.png) no-repeat right -671px; }
+  &.admin-side1-tc {
+    background: url(../img/round-corner-sprite.png) repeat-x left -720px;
+    height: 39px;
+    margin: 0px 4px; }
+  &.page-count-block .paging-count {
+    padding: 13px 0px 0% 0%; }
+  &.paging-info-block .paging-count {
+    padding: 0px 0px 0% 0%; }
+  &.ui-tabs div.page-count-block .paging-count {
+    padding: 13px 0px 0% 0%; } }
+
+.paging-count {
+  font-size: 80%;
+  padding: 0% 0px 0% 0%;
+  white-space: nowrap; }
+
+div.dashboard-side2 h2 {
+  font-size: 116%;
+  padding: 5% 0px 0.8% 1%; }
+
+ul {
+  &.admin-dashboard-links {
+    margin: 0.1% 0px 0px 2.5%;
+    li {
+      padding: 2% 0px;
+      &.version-info {
+        font-weight: bold;
+        font-size: 98%;
+        span {
+          font-weight: normal; } }
+      a {
+        background: url(../img/admin-sprite.png) no-repeat left -10320px;
+        padding: 0% 0% 0% 4%; } } }
+  &.setting-links {
+    margin: 1% 0px 0px 2%;
+    li {
+      border-bottom: 1px solid lighten($base-black, 87%);
+      padding: 1% 0% 1% 0%;
+      margin: 0% 1% 0% 0%;
+      min-height: 102px;
+      div {
+        &.setting-details-info {
+          padding: 0px 0px 31px 100px;
+          min-height: 48px; }
+        &.setting-details-info1 {
+          padding: 0px 0px 31px 80px; }
+        &.setting-category-System {
+          background: url(../img/admin-sprite.png) no-repeat 21px -8263px; }
+        &.setting-category-Developments {
+          background: url(../img/admin-sprite.png) no-repeat 5px -1917px; }
+        &.setting-category-SEO {
+          background: url(../img/admin-sprite.png) no-repeat 6px -7334px; }
+        &.setting-category-Search {
+          background: url(../img/admin-sprite.png) no-repeat 5px -9372px; }
+        &.setting-category-Regional {
+          background: url(../img/admin-sprite.png) no-repeat 25px -6154px; }
+        &.setting-category-Account {
+          background: url(../img/admin-sprite.png) no-repeat 14px -5px; }
+        &.setting-category-People {
+          background: url(../img/admin-sprite.png) no-repeat 5px -7566px; }
+        &.setting-category-Barcode {
+          background: url(../img/admin-sprite.png) no-repeat 5px -6487px; }
+        &.setting-category-Wallet {
+          background: url(../img/admin-sprite.png) no-repeat 5px -9794px; }
+        &.setting-category-Deal {
+          background: url(../img/admin-sprite.png) no-repeat 25px -1654px; }
+        &.setting-category-Payment {
+          background: url(../img/admin-sprite.png) no-repeat 10px -5187px; }
+        &.setting-category-Invite {
+          background: url(../img/admin-sprite.png) no-repeat 5px -7830px; }
+        &.Privacy {
+          background: url(../img/admin-sprite.png) no-repeat 5px -9605px; }
+        &.setting-category-Referrals {
+          background: url(../img/admin-sprite.png) no-repeat 25px -5803px; }
+        &.setting-category-Company {
+          background: url(../img/admin-sprite.png) no-repeat 5px -7112px; }
+        &.setting-category-Twitter {
+          background: url(../img/admin-sprite.png) no-repeat 5px -9274px; }
+        &.setting-category-Google {
+          background: url(../img/admin-sprite.png) no-repeat 5px -8159px; }
+        &.setting-category-Bitly {
+          background: url(../img/admin-sprite.png) no-repeat 5px -6640px; }
+        &.setting-category-Mail {
+          background: url(../img/admin-sprite.png) no-repeat 5px -8699px; }
+        &.setting-category-Affiliate {
+          background: url(../img/admin-sprite.png) no-repeat 20px -226px; }
+        &.setting-category-Mobile {
+          background: url(../img/admin-sprite.png) no-repeat 20px -500px; }
+        &.setting-category-Widget {
+          background: url(../img/admin-sprite.png) no-repeat scroll 29px -10187px; }
+        &.setting-category-Friends {
+          background: url(../img/admin-sprite.png) no-repeat 17px -2140px; }
+        &.setting-category-Third {
+          background: url(../img/admin-sprite.png) no-repeat 18px -359px; }
+        &.setting-category-CDN {
+          background: url(../img/admin-sprite.png) no-repeat 20px -942px; }
+        &.setting-category-Module {
+          background: url(../img/admin-sprite.png) no-repeat 23px -4876px; }
+        &.setting-category-Charity {
+          background: url(../img/admin-sprite.png) no-repeat 25px -780px; }
+        &.setting-category-Foursquare {
+          background: url(../img/admin-sprite.png) no-repeat 5px -7704px; }
+        &.setting-category-Gift {
+          background: url(../img/admin-sprite.png) no-repeat 5px -7996px; } } } } }
+
+div#settings-admin_index ul.setting-links li div.payment-transaction-log {
+  background: url(../img/admin-sprite.png) no-repeat 6px -5322px; }
+
+ul.setting-links li {
+  div {
+    &.payment-transaction-log {
+      background: url(../img/admin-sprite.png) no-repeat 6px -5322px; }
+    &.mass-payment {
+      background: url(../img/admin-sprite.png) no-repeat 6px -4524px; }
+    &.paypal-docapture {
+      background: url(../img/admin-sprite.png) no-repeat 7px -5449px; }
+    &.authorizenet-docapture {
+      background: url(../img/admin-sprite.png) no-repeat 8px -649px;
+      padding: 0px 0px 31px 90px; }
+    &.debug-error {
+      background: url(../img/admin-sprite.png) no-repeat 15px -1782px; } }
+  &:hover {
+    border-bottom: 1px solid lighten($base-black, 87%);
+    background: #f4f9fc; }
+  a {
+    font-size: 95%; } }
+
+div.admin-select-block div.select {
+  margin: 0px;
+  padding: 0px; }
+
+form.search-form div {
+  &.date-time {
+    width: 182px; }
+  &.end-date-time-block {
+    width: 187px; } }
+
+div#transactions-admin_index form.search-form div.submit {
+  margin: 5px 5px 0px 0px; }
+
+form.normal div.billing-info-block div {
+  &.checkbox input, &.date label+select, &.time label+select, &.datetime label+select {
+    margin: 0px 5px 0px 202px; } }
+
+div#transactions-admin_index {
+  .time-desc {
+    margin: 8px 0px 0px 52px; }
+  div.end-date-time-block .time-desc {
+    margin: 8px 0px 0px 44px; } }
+
+form#TransactionAdminIndexForm div {
+  &.date-time-block {
+    float: left;
+    margin: 0.1% 0px 0px 0px;
+    z-index: 0;
+    position: static; }
+  &.mapblock-info {
+    float: left;
+    div.autocompleteblock ul.ui-autocomplete {
+      left: 8px !important; } } }
+
+div.page-title-info h2 {
+  padding: 12px 0px 10px 33px;
+  font-size: 1.2em;
+  &.deals-title {
+    padding: 12px 0 19px 33px; } }
+
+h2 {
+  &.dashboard-title {
+    background: transparent url(../img/admin-sprite.png) no-repeat -7px -9115px; }
+  &.users-title {
+    background: transparent url(../img/admin-sprite.png) no-repeat -6px -10088px; }
+  &.company-title {
+    background: transparent url(../img/admin-sprite.png) no-repeat -3px -2835px; }
+  &.deals-title {
+    background: transparent url(../img/admin-sprite.png) no-repeat -7px -3205px; }
+  &.subscriptions-title {
+    background: transparent url(../img/admin-sprite.png) no-repeat -6px -4026px; }
+    &.payment-title {
+    background: transparent url(../img/admin-sprite.png) no-repeat -9px -3811px; }
+  &.charity-title {
+    background: transparent url(../img/admin-sprite.png) no-repeat -3px -2657px; }
+  &.affiliate-title {
+    background: transparent url(../img/admin-sprite.png) no-repeat 5px -13050px; }
+  &.master-title {
+    background: transparent url(../img/admin-sprite.png) no-repeat -3px -4755px; }
+  &.iphone-title {
+    background: transparent url(../img/admin-sprite.png) no-repeat -4px -5709px; }
+  &.diagnostics-title {
+    background: url("../img/admin-sprite.png") no-repeat -2px -3391px; }
+  &.settings-title {
+    background: transparent url(../img/admin-sprite.png) no-repeat -11px -3581px; }
+  &.customize-subscriptions-title {
+    background: transparent url(../img/admin-sprite.png) no-repeat 4px -1436px; }
+  &.referral-title {
+    background: transparent url(../img/admin-sprite.png) no-repeat 5px -13140px; } }
+
+form {
+  &#CurrencyEditForm table.list div.text input {
+    margin: 0px 0px 0px 0px; }
+  &.normal div.textarea textarea.email-content {
+    height: 300px;
+    width: 530px; } }
+
+dl.list {
+  dt, dd {
+    font-size: 98%; } }
+
+#translations-admin_manage dl.list dt {
+  font-weight: bold; }
+
+form {
+  &#TransactionAdminIndexForm div.date-time-block div.end-date-time-block {
+    z-index: 0; }
+  &.normal div.admin-select-block div.select select {
+    font-size: 12px;
+    height: 21px;
+    padding: 0;
+    width: 175px; } }
+
+div {
+  &.admin-select-block div {
+    display: block;
+    float: left; }
+  &#email_templates-admin_index .ui-accordion {
+    .ui-accordion-header {
+      z-index: 0; }
+    .ui-state-active {
+      background: $base-blue;
+      a {
+        color: $base-white; } } } }
+
+form#TranslationManageForm table.list div.textarea textarea {
+  margin: 0px; }
+
+h4.language-text-block {
+  font-size: 16px;
+  color: $base-blue;
+  padding: 10px 0px 10px 20px; }
+
+div.submit-update-block {
+  margin: 10px 0px 10px 500px; }
+
+form {
+  &.setting-add-form .form-block {
+    margin: 0px 0px 10px 0px; }
+  &.normal div {
+    &.js-company_profile_show div.textarea {
+      background: none; }
+    &.radio input#AffiliateRequestIsApproved0 {
+      margin: 0px 5px 0px 200px; } } }
+
+div {
+  &#affiliate_requests-admin_add span.label-content-radio {
+    margin: 4px 0px 0px 25px; }
+  &.businesssuggestion-email {
+    white-space: nowrap; } }
+
+ol.company-address-list li.no-address {
+  float: none;
+  width: auto;
+  padding: 10px 10px 10px 26px;
+  &:hover {
+    background: url(../img/icon-list-warning.png) no-repeat 5px center; } }
+
+form#AffiliateTypeEditForm div.select select {
+  margin: 0px;
+  width: 164px; }
+
+div {
+  &.affliates-submit-block {
+    margin: 10px 0px 10px 47%; }
+  &.widget-logo {
+    margin: 10px 0px 10px 212px; }
+  &.admin-content div.language-block {
+    width: 95px; } }
+
+h3.ui-accordion-header span {
+  font-weight: normal;
+  font-size: 11px; }
+
+.ui-state-default .ui-icon {
+  background: url("../img/admin-sprite.png") no-repeat scroll 6px -10308px transparent; }
+
+div {
+  &.outer-image-settings span.help {
+    margin: 5px 0px 10px 178px; }
+  &.translation-index-block {
+    margin: 15px 0px 0px 0px; }
+  &.translation-left-block {
+    float: left;
+    width: 316px;
+    margin: 0px 20px 0px 57px; }
+  &.translation-right-block {
+    float: left;
+    width: 344px; }
+  &.translation-index-block {
+    span.info {
+      margin: 0px; }
+    div.submit {
+      margin: 0px 30px 0px 0px; } }
+  &.translation-right-block div.submit input[disabled="disabled"] {
+    color: lighten($base-black, 62%);
+    cursor: default !important; }
+  &.translation-left-block span.info, &.translation-right-block span.info {
+    background: url("../img/common-sprite.png") no-repeat scroll 140px -3311px transparent; }
+  &.master-page-info {
+    margin: 0px;
+    padding: 10px 0px 10px 38px; }
+  &.admin-content {
+    form.normal {
+      padding: 0px 0px 0px 0px;
+      width: 100%; }
+    .forgot-info, .info-details {
+      margin: 10px 0px; }
+    table.list {
+      margin: 9px 0px 0px 0px; }
+    dl {
+      &.list {
+        dt {
+          width: 14%; }
+        dd {
+          width: 70%; } }
+      &.budget-list {
+        dt {
+          width: 59%; }
+        dd {
+          width: 26%; } }
+      &.edit-translation {
+        dt {
+          width: 100px; }
+        dd {
+          width: 47px; }
+        width: 176px; } } } }
+
+form#TransactionAdminIndexForm div {
+  &.input label {
+    width: 31px; }
+  &.text {
+    width: 176px;
+    input {
+      margin: 9px 0px 0px 54px;
+      width: 117px; } } }
+
+div.diagnostics-block {
+  margin: 4px 0px 0px 0px; }
+
+form.normal table.list div.checkbox {
+  padding: 5px 0px; }
+
+ul.transfer-list li {
+  float: left;
+  margin: 13px 3px 0px 3px;
+  font-size: 11px;
+  a {
+    text-decoration: underline;
+    &:hover {
+      text-decoration: none; } }
+  &.transfer-amount {
+    font-weight: normal;
+    color: lighten($base-black, 50%); } }
+
+div {
+  &#pages-refer_a_friend h3 {
+    padding: 1% 0px 0.8% 0px; }
+  &.status-info span {
+    float: left;
+    display: block;
+    padding: 1px; }
+  &#mail_chimp_lists-admin_index {
+    table.list div.text {
+      input {
+        margin: 0px 5px 0px 0px; }
+      padding: 0px;
+      margin: 0px; }
+    div.submit-block {
+      margin: 10px 0px 10px 283px; } }
+  &.user-info-block {
+    padding: 0px 0px 5px 0px; }
+  &.paypal-status-info span, &.user-status-block span {
+    float: right;
+    padding: 1px 5px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -o-border-radius: 3px;
+    font-size: 9px;
+    line-height: 13px;
+    margin: 2px; } }
+
+p.user-img-right span {
+  float: right;
+  padding: 1px 5px;
+  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -o-border-radius: 3px;
+  font-size: 9px;
+  line-height: 13px;
+  margin: 2px; }
+
+div.paypal-status-info span {
+  float: left;
+  font-size: 10px;
+  line-height: 8px;
+  margin: 1px 3px 1px 0; }
+
+span.paypal {
+  background: #2c699f;
+  color: $base-white; }
+
+div.paypal-status-info span.resume-strip {
+  background: #FF8040;
+  color: $base-white;
+  float: right;
+  padding: 2px 5px;
+  font-size: 10px; }
+
+p.user-img-right span {
+  &.affiliate {
+    background: #9bc937;
+    color: $base-white; }
+  &.active-city {
+    background: #1E9B0A;
+    color: $base-white; }
+  &.admin {
+    background: #fff830;
+    color: lighten($base-black, 30%); } }
+
+div.user-status-block span {
+  float: left;
+  display: block;
+  width: 16px;
+  height: 16px;
+  text-indent: -3000em;
+  padding: 0px;
+  &.flags {
+    height: auto;
+    margin: 5px 3px;
+    width: 19px;
+    height: 11px; }
+  &.iphone {
+    background: url(../img/common-sprite.png) no-repeat -1px -2928px;
+    width: 9px; }
+  &.open_id, &.gmail {
+    background: url(../img/common-sprite.png) no-repeat -2px -2506px; }
+  &.yahoo {
+    background: url(../img/common-sprite.png) no-repeat -4px -4581px; }
+  &.facebook {
+    background: url(../img/common-sprite.png) no-repeat -4px -4888px; }
+  &.twitter {
+    background: url(../img/common-sprite.png) no-repeat -2px -4379px; }
+  &.android {
+    background: url("../img/common-sprite.png") no-repeat 0 -9830px; } }
+
+span.foursquare {
+  background: url(../img/common-sprite.png) no-repeat -8px -3388px; }
+
+div.user-status-block span {
+  &.email {
+    text-indent: 1px;
+    height: auto;
+    width: auto;
+    padding: 1px 0px 3px 21px; }
+  &.email-not-comfirmed {
+    background: url("../img/common-sprite.png") no-repeat 3px -10355px;
+    color: #F88EC7; }
+  &.email-comfirmed {
+    color: #1fa6c8;
+    background: url(../img/common-sprite.png) no-repeat left -2442px; } }
+
+table.list tr {
+  &.inactive-record td {
+    color: #b7b7b7;
+    background: #FBF9FA;
+    a {
+      color: #b7b7b7; }
+    span.email-not-comfirmed {
+      color: #b7b7b7;
+      background: url("../img/common-sprite.png") no-repeat 3px -10355px; } }
+  &:hover td.paid-amount, td.paid-amount {
+    background: #FFF7C0; }
+  &.inactive-record td {
+    &.site-amount, &.paid-amount {
+      background: #FBF9FA; } } }
+
+div.chartiy-submit-block {
+  margin: 15px 0px 15px 0px; }
+
+form {
+  &.search-form div.autocompleteblock ul.ui-autocomplete {
+    left: 85px !important;
+    top: 36px !important; }
+  &#CharityPayToUserForm div {
+    &.textarea textarea, &.text input, &.select select {
+      margin: 0px; } }
+  &#AffiliateCashWithdrawalPayToUserForm div {
+    &.select select, &.textarea textarea {
+      margin: 0px; } }
+  &#UserCashWithdrawalPayToUserForm div {
+    &.textarea textarea, &.select select {
+      margin: 0px; } } }
+
+div {
+  &.pay-submit-block {
+    margin: 15px 0px 0px 0px; }
+  &.test-mode-content {
+    background: url(../img/text-separator.png) repeat-y 441px top; }
+  &#companies-admin_merchant_stats div.chart-half-section {
+    width: 48.8%;
+    margin: 4px 5px;
+    div.highcharts-container {
+      text-align: center !important;
+      width: 99% !important; } }
+  &#deals-admin_deal_stats table.list {
+    width: 98.4%;
+    margin: 9px auto; }
+  &#companies-admin_merchant_stats table.list {
+    width: 99%;
+    margin: 9px auto; } }
+
+form#DealUpdateForm table.list {
+  td.select, th.select {
+    width: 38px; } }
+
+div {
+  &.connect-link-block .grid_18 h3 {
+    padding: 10px 0; }
+  &.admin-content {
+    .connection-right-block a.button {
+      background: url("../img/common-sprite.png") no-repeat left -11737px;
+      color: $base-white;
+      font-size: 14px;
+      font-weight: 700;
+      height: 24px;
+      margin: 15px 0;
+      padding: 5px 0 0;
+      text-align: center;
+      width: 108px;
+      &:hover {
+        background: url("../img/common-sprite.png") no-repeat left -11766px; } }
+    #agriya {
+      font-size: 12px;
+      width: 790px; } } }
+
+form.normal div.outer-image-settings div {
+  &.input {
+    width: 417px;
+    float: left; }
+  &.outer-image-settings {
+    width: 347px;
+    float: left;
+    div.input {
+      width: auto;
+      select {
+        margin: 0px;
+        width: 200px; } } }
+  &.select span.help {
+    margin: 0px; }
+  &.input {
+    label {
+      position: absolute; }
+    input {
+      margin: 0px 0px 0px 180px;
+      width: 100px;
+      &.image-settings-height {
+        margin: 0px 0px 0px 0px; } } }
+  &.image-separator {
+    width: 10px; } }
+
+ol.sub-deal-list {
+  margin: 0 0 5px 7px;
+  li {
+    margin: 0px 0px 9px 0px;
+    h4 {
+      padding: 5px 10px 1px 7px; } }
+  dl.list {
+    margin: 0px 0px; } }
+
+div {
+  &.sub-deal-action-block {
+    margin: 0 0 3px 17px; }
+  &.deal-company-main-address {
+    border-bottom: 1px solid lighten($base-black, 87%);
+    margin: 0 0 0 28px;
+    padding: 0 0 7px;
+    span {
+      font-weight: bold;
+      margin: 0px 0px 0px 4px; } } }
+
+#DealAddForm span.notice {
+  padding: 5px 2px 7px 25px; }
+
+h2.settings-title span.setting-info {
+  color: lighten($base-black, 40%);
+  float: right;
+  font-size: 11px;
+  font-weight: normal;
+  margin: -5px 0px 0px 0px;
+  padding: 5px 2px 2px 23px; }
+
+div {
+  &#devs-admin_logs {
+    h3 {
+      padding: 10px 0px; }
+    textarea {
+      width: 98%;
+      border: 1px solid lighten($base-black, 87%);
+      &:hover {
+        border: 1px solid #ccc; } } }
+  &#static-content h2:first-child {
+    display: none; } }
+.upload-avatar{
+	margin:0 0 0 212px;
+}

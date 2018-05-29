@@ -1,0 +1,77 @@
+/* datepicker style is begin */
+div.datepicker-content {
+	position:absolute;
+	left:5px;
+	top:27px;
+	z-index:99999;
+	width:auto;
+}
+.picker-img {
+	float:left;
+	margin:6px 3px 0 0;
+	cursor:pointer;
+}
+div.datepicker-content a.close {
+    background: url("../img/common-sprite.png") no-repeat scroll 0 -5328px transparent;
+    bottom: -15px;
+    height: 28px;
+    margin: 0 5px 5px 0;
+    position: absolute;
+    right: -15px;
+    text-indent: -9999em;
+    width: 28px;
+}
+form.normal .ui-datepicker select.ui-datepicker-month,form.normal .ui-datepicker select.ui-datepicker-year,form.normal div.thick-box .ui-datepicker select.ui-datepicker-month,form.normal div.thick-box .ui-datepicker select.ui-datepicker-year {
+	width:49%;
+	margin:0px;
+}
+div.timepicker,div.datepicker-container,.date-time {
+	position:relative;
+	z-index:0;
+}
+div.timepicker {
+	float:left;
+	position:relative;
+}
+ul.global-links-right li {
+	float:left;
+	margin:3px;
+	padding:0 2px;
+}
+.date-time label {
+	left:0;
+}
+.displaydate {
+	padding:1px 5px;
+	margin:2px 2px 0px 2px;
+	width:100px;
+	height:20px;
+	font-size:10px;
+	font-weight:normal;
+	float:left;
+	padding:3px 0px 0px 5px;
+}
+div.timepicker {
+	width:95px;
+}
+div.displaydate a {
+	color:#DE2701;
+	margin-left:0px;
+}
+.timepickr {
+	background:#FFFFFF none repeat scroll 0 0;
+	border:none;
+	font-size:13px;
+	margin:0 0;
+	height:37px;
+	padding:1px 5px;
+}
+.paging-count {
+	color:#7F7F7F;
+	font-size:11px;
+	padding:5px 0px;
+}
+.slider-content {
+	width:955px;
+	margin: 0px auto;
+}

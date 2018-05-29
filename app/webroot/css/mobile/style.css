@@ -1,0 +1,377 @@
+/*
+Author: CSSilize http://www.cssilize.com/
+Date: 2010-06-09
+(c)2010 CSSilize. All rights reserved.
+*/
+
+.content {
+	font:12px/19px Arial, Helvetica, sans-serif;
+	background:#fff;
+	color:#424242; 
+}
+/** common elements */
+h1 {
+	padding:30px 25px;
+}
+h1 a {
+	display:block;
+	width:176px;
+	height:26px;
+}
+h2 {
+	font:25px/28px Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+}
+h2 a {
+	color:#424242;
+}
+h2 a:hover {
+	color:#53b7b7;
+}
+h3 {
+	font-size:15px;
+}
+p {
+	font-size:11px;
+}
+p span {
+	color:#53b7b7;
+}
+a {
+	text-decoration:none;
+	color:#53b7b7;
+}
+a:hover {
+	color:#4f4f4f;
+}
+a img:hover {
+	opacity:0.6;
+	filter:alpha(opacity=40);
+}
+#header {
+	background:#424242;
+}
+.menu-block {
+	border-top:4px solid #338888;
+	background:#44abaf;
+	font-family:Tahoma, Arial;
+	padding:8px 10px;
+}
+ul.menu {
+	float:left;
+}
+ul.menu li {
+	float:left;
+	padding:0 8px;
+}
+ul.menu li a {
+	color:#daeeef;
+	font-size:14px;
+	font-weight:bold;
+}
+ul.menu li a:hover, ul.menu li.active a {
+	color:#4f4f4f;
+}
+p.user-block {
+	float:right;
+	line-height:16px;
+}
+p.user-block a {
+	color:#fff;
+	font-size:12px;
+}
+p.user-block a:hover {
+	text-decoration:underline;
+}
+#main {
+	padding:20px 20px 50px 25px;
+}
+.side1 {
+	width:50%;
+	float:left;
+	padding:30px 0 0 0;
+	font-family:Tahoma, Arial;
+	min-width:200px;
+}
+#main h3 {
+	padding:20px 0 5px 0;
+}
+#main .side1 h3 {
+	color:#288787;
+	padding:0 0 10px 0;
+}
+p.refer {
+	display:inline;
+	vertical-align:top;
+}
+p.refer a {
+	color:#424242;
+}
+p.refer a:hover {
+	color:#288787;
+}
+.side1-l {
+	float:left;
+	width:65%;
+	padding:25px 5% 30px 0;
+	background:url(../../img/mobile/seperator.png) no-repeat right top;
+	min-width:100px;
+}
+.side1-r {
+	float:left;
+	width:25%;
+	padding:25px 0 30px 5%;
+}
+.side2 {
+	width:45%;
+	float:left;
+	padding:30px 0 0 5%;
+}
+p.cash {
+	color:#3ca3a7;
+	text-align:center;
+	font:55px/60px Georgia, "Times New Roman", Times, serif;
+}
+p.cash span {
+	line-height:50px;
+	font-size:20px;
+	vertical-align:17px;
+	padding:0 5px 0 0;
+}
+a.buy-but {
+	background:#3e9ca0;
+	font:25px/27px Georgia, "Times New Roman", Times, serif;
+	color:#fff;
+	display:block;
+	padding:10px 0;
+	margin:13px auto;
+	width:219px;
+	text-align:center;
+}
+p.buy-but a:hover {
+	background:#424242;
+}
+dl.deal-list {
+	text-align:center;
+	font-weight:bold;
+	float:left;
+	padding:0 auto;
+	margin:0 11px;
+}
+dl.deal-list dt {
+	font-size:12px;
+}
+dl.deal-list dd {
+	font-size:14px;
+	color:#0e686c;
+}
+.deal-block {
+	margin:0 auto 15px;
+	width:245px;
+	background:url(../../img/mobile/seperator1.png) no-repeat center bottom;
+	padding:0 0 20px 0;
+}
+dl.progress-list {
+	background:#f4f3f3;
+	width:215px;
+	margin:0 auto;
+	padding:20px 15px;
+	position:relative;
+}
+dl.progress-list dt {
+	position:absolute;
+	right:15px;
+	font-weight:bold;
+}
+dl.progress-list dd {
+	font-size:14px;
+	font-weight:bold;
+	color:#338888;
+}
+ol.list {
+	font-family:Tahoma, Arial;
+}
+ol.list li {
+	padding:20px 0;
+	border-top:1px solid #ccc;
+}
+ol.list li:first-child {
+	border:none;
+}
+ol.list li p {
+	font-size:12px;
+	padding:0 0 3px 0;
+}
+ol.list li p a {
+	color:#424242;
+}
+ol.list li p a:hover {
+	color:#288787;
+}
+.deal-l {
+	width:55px;
+	float:left;
+}
+ol.list li .deal-l p {
+	background:#48adb1;
+	color:#fff;
+	border:1px solid #cfcfcf;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	line-height:14px;
+	padding:6px 0;
+}
+ol.list li .deal-l p span {
+	color:#fff;
+}
+.deal-r {
+	width:85%;
+	margin:0 0 0 10px;
+	float:left;
+}
+dl.price-list {
+	background:#44abaf;
+	color:#fff;
+	display:inline;
+	padding:2px 0;
+}
+dl.price-list dt, dl.price-list dd {
+	display:inline;
+	margin:0 0 0 2px;
+}
+dl.price-list dd {
+	margin:0 5px 0 0;
+}
+.countdown_section {
+	margin:0 6px 0 0;
+}
+#footer {
+	font-family:Tahoma, Arial;
+	background:#424242;
+	padding:20px 20px 20px 25px;
+}
+#footer p, #footer p a {
+	color:#fff;
+	float:left;
+}
+#footer p a{
+text-decoration:underline;
+}
+#footer p a:hover {
+	color:#3ca3a7;
+}
+#agriya a.cssilize{
+	background:url(../../img/cssilize.png) no-repeat scroll center top;
+	height:17px;
+	float: left;
+	text-indent:-9999em;
+	width:118px;
+	margin:4px 0 0 19px;
+}
+ #agriya p.powered{
+	margin-top:5px;
+}
+#agriya p.powered span{
+	float:left;
+	margin-left:3px;
+}
+#agriya a.powered{
+	background:transparent url(../../img/powered-grouponpro.png) no-repeat scroll left top;
+	height:17px;
+	float: left;
+	text-indent:-9999em;
+	width:80px;
+}
+#agriya a.company {
+	background:url(../../img/powered-by-agriya.png) no-repeat scroll left center transparent;
+	float:left;
+	height:15px;
+	margin:0 5px;
+	text-indent:-9999em;
+	width:80px;
+}
+#agriya a.cssilize{
+	background:url(../../img/cssilize.png) no-repeat scroll center top;
+	height:17px;
+	display: block;
+	text-indent:-9999em;
+	width:118px;
+	float:left;
+}
+
+#agriya span.made-in{
+	float: left;
+}
+/** common classes */
+
+/** page-wise overrides */
+
+/** JavaScript */
+
+/** Hacks */
+.clearfix:after {
+	clear:both;
+	content:'.';
+	display:block;
+	visibility:hidden;
+	height:0;
+}
+.clearfix {
+	display:inline-block;
+}
+* html .clearfix {
+	height:1%;
+}
+.clearfix {
+	display:block;
+}
+*+html .clearfix {
+	display: inline-block;
+}
+.round-5 {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+}
+div.input-block-left{
+float:left;
+width:307px;
+}
+div.input-block-right{
+float:left;
+width:333px;
+}
+form.normal div.input-block-right label{
+width:125px;
+text-align:left;
+}
+form.normal div.input-blocks div.input input{
+margin:0px 0px 0px 176px;
+width:100px;
+}
+form.normal div.input-blocks div.input-block-right div.input input{
+margin:0px 0px 0px 144px;
+}
+div.input-blocks span.info{
+margin:5px 0px 0px 101px
+}
+div.input-blocks div.input-block-left span.info{
+margin:5px 0px 0px 160px
+}
+/** Cssilized by cssilize */
+p#cssilize {
+	padding:35px 0 20px;
+}
+p#cssilize a {
+	background:url(../../img/cssilize.png) no-repeat center top;
+	height:17px;
+	width:118px;
+	display:block;
+	text-indent:-9999em;
+	margin:0 auto;
+}
+p#cssilize a:hover {
+	background-position:center bottom;
+}

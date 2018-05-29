@@ -1,0 +1,258 @@
+/*MErchant menu */
+body {
+	background: url("../img/body-bg.png") repeat 0 0;
+}
+div.header-inner {
+	background: url("../img/merchant-header-bg.png") repeat-x left top;
+	height:139px;
+}
+h1.merchant-logo a {
+	background: url("../img/merchant-logo.png") no-repeat left top;
+	display: block;
+	float: left;
+	font-size: 0;
+	height: 23px;
+	margin: 10px 0 0;
+	padding: 3px 0 0 130px;
+	text-indent: 1em;
+}
+h1.merchant-logo a + span {
+	text-indent: -99999em;
+}
+h1.merchant-logo a span {
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: 400;
+	text-indent: 1em;
+}
+ul.user-menu {
+	margin:6px 0 5px 0;
+}
+ul.user-menu > li {
+	float: left;
+	position: relative;
+	z-index: 100000;
+}
+ul.user-menu span.user-img-right a {
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 15px;
+}
+li.view-site {
+  background: url("../img/merchant-sprite.png") no-repeat left -2140px;
+	padding: 0 0 0 5px;
+	margin: 8px 10px 0 0;
+}
+li.view-site a {
+    background: url("../img/merchant-sprite.png") no-repeat right -2193px;
+	color: #FFFFFF;
+	display: block;
+	font-size: 11px;
+	font-weight: bold;
+	height: 22px;
+	padding: 2px 7px 0 6px;
+}
+li.view-site a:hover{
+	color:#000;
+}
+ul.merchant-menu {
+	width: auto;
+}
+ul.merchant-menu li.view-site {
+	margin: 4px 18px 0 11px;
+}
+ul.merchant-menu > li {
+	float: left;
+	margin: 4px 5px 0 11px;
+}
+ul.merchant-links {
+   margin:0;
+   border: none;
+}
+ul.merchant-links > li {
+    margin: 24px 1%;
+}
+ul.merchant-links li span {
+    font-size: 11px;
+}
+span.dashboard  {
+	background: url("../img/merchant-sprite.png") no-repeat center -6px;
+}
+span.merchant-company {
+	background: url("../img/merchant-sprite.png") no-repeat center -403px;
+}
+span.merchant-branch {
+	background: url("../img/merchant-sprite.png") no-repeat center -623px;
+}
+span.merchant-deals {
+	background: url("../img/merchant-sprite.png") no-repeat center -845px;
+}
+span.merchant-livedeals {
+	background: url("../img/merchant-sprite.png") no-repeat center -1050px;
+}
+span.merchant-transaction {
+	background: url("../img/merchant-sprite.png") no-repeat center -1267px;
+}
+span.merchant-transfer {
+	background: url("../img/merchant-sprite.png") no-repeat center -1488px;
+	 width: 100%;
+}
+span.merchant-wallet {
+	background: url("../img/merchant-sprite.png") no-repeat center -1755px;
+}
+/*End*/
+.small-info {
+	background: url("../img/small-info.png") no-repeat 0 0;
+	display: block;
+	height: 16px;
+	margin: 8px 0 0 6px;
+	text-indent: -9999em;
+	width: 16px;
+}
+.welcome-block {
+	margin:34px 0 30px;
+}
+div.merchant-center-block {
+    border:1px solid #ccc;
+	border-width:0 1px 1px 1px;
+	background: #fff;
+	padding: 70px;
+	border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+    -ms-border-radius: 0 0 5px 5px;
+	 box-shadow:0 1px 3px #ccc;
+    -moz-box-shadow: 0 1px 3px #ccc;
+	-o-box-shadow:0 1px 3px #ccc;
+	-ms-box-shadow:0 1px 3px #ccc;
+	-webkit-box-shadow:0 1px 3px #ccc;
+    
+}
+p.merchant-welcome-info {
+	margin:10px 0 0 0;
+}
+.merchant-menu1 img {
+    border: 1px solid #DDDDDD;
+    height: 38px;
+    width: 38px;
+}
+span.user-img-right{
+	   margin: 0 0 0 5px;
+}
+ul.user-menu span.user-img-right a.user-name1{
+	font-weight:400;
+}
+fieldset.form-block {
+    position: relative;
+}
+.profile-image{
+    top: 65px;
+    width: 146px;
+}
+ul.admin-links li div.admin-sub-block{
+	width:180px;
+}
+div.page-title-info h2 {
+    font-size: 1.2em;
+    padding: 12px 0 10px 33px;
+	color: #1FA6C8;
+}
+h2.dashboard {
+    background: url("../img/merchant-sprite.png") no-repeat scroll 0 -2274px transparent;
+}
+h2.merchants {
+    background: url("../img/merchant-sprite.png") no-repeat scroll 0 -2320px transparent;
+}
+h2.branches {
+    background: url("../img/merchant-sprite.png") no-repeat scroll 0 -2363px transparent;
+}
+h2.deals {
+    background: url("../img/merchant-sprite.png") no-repeat scroll 0 -2410px transparent;
+}
+h2.live-deals  {
+    background: url("../img/merchant-sprite.png") no-repeat scroll 0 -2452px transparent;
+}
+h2.transaction {
+    background: url("../img/merchant-sprite.png") no-repeat scroll 0 -2489px transparent;
+}
+h2.transfer {
+    background: url("../img/merchant-sprite.png") no-repeat scroll 3px -2526px transparent;
+}
+h2.wallet {
+    background: url("../img/merchant-sprite.png") no-repeat scroll 0 -2564px transparent;
+}
+ span.transfer{
+    width:130px;
+ }
+ div.merchant-content form.normal{
+	   width: 99%;
+ }
+ div.near-deal-buy-block a.button, div.near-deal-buy-block a.near-button-multi {
+	background:url("../img/user-sprite.png") no-repeat left -1155px;
+	width:79px;
+	height:23px;
+	padding:5px 0px 0px 0px;
+	font-size:12px;
+	margin:0px;
+	font-weight:bold;
+	text-align:center;
+}
+div.near-deal-buy-block a.button1 {
+	background:url("../img/user-sprite.png") no-repeat left -10317px;
+	width:71px;
+	padding:5px 9px 0px 4px;
+	font-weight:bold;
+	font-size:12px;
+}
+div.live-deal-buy-block a.button, div.live-deal-buy-block a.near-button-multi {
+	height:23px;
+	padding:5px 0px 0px 0px;
+}
+a.button1:hover, a.button:hover{
+	color:#fff;
+}
+div.near-deal-buy-block span.no-available, div.near-deal-buy-block span.no-available {
+	background:url("../img/user-sprite.png") no-repeat left -1155px;
+	height:26px;
+	padding:2px 0px 0px 0px;
+	margin:0px;
+	width:79px;
+	line-height:11px;
+	font-size:10px;
+	word-wrap:break-word;
+}
+div.near-deal-buy-block a.near-button-multi {
+	background:url("../img/user-sprite.png") no-repeat left -10317px;
+	width:65px;
+	padding:5px 13px 0px 0px;
+}
+div.near-deal-buy-block a.button:hover {
+	background:url("../img/user-sprite.png") no-repeat left -1183px;
+}
+div.near-deal-buy-block a.button1:hover {
+	background:url("../img/user-sprite.png") no-repeat left -10345px;
+}
+div.near-deal-buy-block a.near-button-multi:hover {
+	background:url("../img/user-sprite.png") no-repeat left -10345px;
+}
+div.connect-link-block h3{
+	font-size:18px;
+}
+div.connection-right-block {
+    margin: 15px 0;
+}
+form.normal div.deal-discount-form-block1 div.required label {
+       padding: 7px 0 5px 12px;
+	}
+form.normal div.deal-discount-form-block1 div.input label {
+		margin:-10px 0 0 0;
+	}
+div#users-add_to_wallet form.normal div.radio + input{	
+	margin:0 0 0 175px;
+ }
+ span.payment{
+    display: inline-block;
+    width: 170px;
+ }

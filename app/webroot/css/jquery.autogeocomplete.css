@@ -1,0 +1,119 @@
+/* auto completed style begin */
+div.autocompleteblock ul.ui-autocomplete {
+	background:#FCFCFC;
+	border:1px solid #DDDDDD;
+	padding:2px;
+	width:200px;
+	left:211px !important;
+	top:38px !important;
+}
+div.autocompleteblock ul.ui-autocomplete li {
+	margin:0px;
+}
+div.mapblock-info,div.mapblock-info1 {
+	position:relative;
+}
+.ui-autocomplete {
+	min-height:238px;
+	left:0px !important;
+	width:212px !important;
+	Z-index:4 !important;
+	top:0px !important;
+	border-right:1px solid #ddd;
+	border-radius:0px;
+}
+div#mapblock,div#mapblock_branch {
+	background:#F3F3F3;
+	border:1px solid #DDDDDD;
+	height:271px;
+	padding:10px 0 0 10px;
+	left:211px;
+	top:43px;
+	width:448px;
+	z-index:100000;
+	position:absolute;
+	display:none;
+}
+div.search-information-block div#mapblock {
+	left:0px;
+}
+div#js-autocomplete-block {
+	width:423px !important;
+	background:none repeat scroll 0 0 #FFFFFF;
+	border:1px solid #DDDDDD;
+}
+.ui-autocomplete a {
+	color:#333333;
+}
+.ui-menu .ui-menu-item a {
+	padding:2px;
+	z-index:1000 !important;
+	display:block;
+	border-radius:0px;
+	cursor:pointer;
+	border-bottom:1px solid #ddd;
+	font-size:11px;
+}
+.ui-menu .ui-menu-item {
+	float:none;
+	clear:both;
+	padding:2px;
+	border-radius:0px;
+	border:0px;
+}
+.ui-menu .ui-menu-item a.ui-state-hover {
+	background:#F4FEFF;
+	border-bottom:1px solid #4BC1DE;
+	border-radius:0px;
+	-moz-border-radius:0px;
+	color:#333;
+}
+.ui-simcomplete-more,.ui-simcomplete-more:hover {
+	background:url("../img/learn-arrow.png") no-repeat scroll 9px 5px transparent;
+	font-size:11px;
+	padding:0 0 0 18px;
+}
+ul.menu-over-ul {
+	background:none repeat scroll 0 0 #fff;
+	border:1px solid #ddd;
+	display:block;
+	left:211px;
+	margin:5px 0 0;
+	padding:0 0 1px 0;
+	top:-31px;
+	width:192px;
+	z-index:1000 !important;
+	opacity:0.8;
+	filter:alpha(opacity=80)
+}
+ul.menu-over-ul li {
+	padding:0px;
+	margin:0px;
+}
+.ui-menu-item a.ui-state-default {
+	border:1px solid #fff;
+	border-bottom:1px solid #e3dabb;
+	padding:5px 0px 5px 5px;
+	display:block;
+}
+ul.menu-over-ul h3 {
+	padding:3px 5px;
+	color:#000;
+}
+#mapframe {
+	background-color:#E7E7E7;
+	position:absolute;
+	right:0;
+	top:4px;
+	width:223px;
+	margin:0px 10px 0px 0px;
+}
+#mapwindow,#mapwindow div {
+	z-index:1 !important;
+}
+#mapframe #mapwindow {
+	width:200px;
+	height:200px;
+	position: static !important;
+}
+/* auto complete style is end */

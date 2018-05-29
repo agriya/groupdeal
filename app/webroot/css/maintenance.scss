@@ -1,0 +1,64 @@
+/* $Id:maintanace.css 187 2011-12-30 23:39:20Z josephine_065at09 $ */
+
+body.maintanace {
+  background: #F9F9EF;
+  font-family: $secondary-font;
+  font-size: 12px;
+  color: $base-black;
+  line-height: 17px; }
+
+h1 a {
+  background: none repeat scroll 0 0 transparent;
+  color: darken($base-white, 1%);
+  display: block;
+  height: 74px;
+  margin: 20px 0 30px 62px;
+  text-indent: -99999em;
+  width: 318px;
+  background: url("../img/logo.png") no-repeat scroll left top transparent; }
+
+div {
+  &.maintanace-mode {
+    background: url("../img/maintanace-mode.png") no-repeat scroll right bottom #f9f9ef;
+    margin: 0 auto;
+    min-height: 466px;
+    width: 763px; }
+  &.maintanace-inner-mode {
+    background: url("../img/maintanace-bg.png") no-repeat scroll left top;
+    height: 232px;
+    padding: 40px 48px;
+    width: 413px;
+    h2 {
+      color: $base-black;
+      font-size: 35px;
+      font-weight: bold;
+      padding: 2px 0 20px;
+      &.maintenance-title {
+        padding: 25px 0 25px 0; } }
+    p {
+      padding: 2px 0; } } }
+
+p.try-info {
+  font-weight: bold; }
+
+div.maintanace-mode {
+  form.normal {
+    div {
+      &.input {
+        label {
+          width: 77px; }
+        margin: 0px; }
+      &.text input, &.password input {
+        margin: 0px 0px 0px 100px;
+        padding: 5px;
+        width: 200px; }
+      &.checkbox input {
+        margin: 0px 0px 0px 100px; }
+      &.submit-block {
+        margin: 0 0 0 104px;
+        padding: 0; } }
+    margin: 0px; }
+  div.fromleft {
+    margin: 3px 0 0 106px; }
+  form.normal div.error-message {
+    margin: -20px 0 0 320px; } }

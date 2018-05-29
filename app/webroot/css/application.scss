@@ -1,0 +1,28 @@
+/* $Id:style.css 187 2009-02-27 23:39:20Z rajesh_04ag02 $ */
+/* Font Variables */
+$common-font : verdana, Helvetica, sans-serif;
+$secondary-font : Arial, Helvetica, sans-serif;
+
+/* Color Variables */
+$base-white: #ffffff;
+$base-black: #000000;
+$base-blue:#00b5c8;
+$base-lightblue:#e5f6f9;
+$base-green:#9FC000;
+$base-red:#ff0000;
+
+/* round cornner mixin */
+@mixin rounded($radius: 10px) {
+ -webkit-border-radius: $radius;
+ -moz-border-radius: $radius;
+ -o-border-radius:$radius;
+ -ms-border-radius: $radius;
+ -khtml-border-radius: $radius;
+ border-radius: $radius; 
+}
+
+
+
+
+
+

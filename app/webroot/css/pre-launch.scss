@@ -1,0 +1,338 @@
+/*pre launch page style is begin */
+
+body {
+  overflow: hidden;
+  color: $base-black;
+  font-family: $common-font; }
+
+div {
+  &.content {
+    color: lighten($base-black, 30%);
+    font-family: $common-font;
+    font-size: 12px;
+    line-height: 18px; }
+  &#header {
+    margin-bottom: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    position: relative;
+    z-index: 2; } }
+
+a {
+  color: lighten($base-black, 65%);
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none; } }
+
+h1 {
+  padding: 15px 0px 15px 0px; }
+
+.hidden-info {
+  display: none; }
+
+.block1-inner, .block2-inner {
+  margin: 0px 5px;
+  padding: 5px 5px 4px 5px;
+  background: $base-white; }
+
+span.subcription-info-second {
+  color: #B2B7B2;
+  font-size: 11px;
+  padding-left: 194px; }
+
+div {
+  &.static-pages-block p {
+    &.subcription-info {
+      color: lighten($base-black, 20%);
+      font-size: 11px; }
+    &.subcription-info-second {
+      padding: 2px 0px 0px 5px;
+      font-size: 11px;
+      color: #c3c3c3; } }
+  &.pre-launch-block {
+    margin: 105px auto 0px auto;
+    padding: 10px 30px;
+    text-align: center;
+    width: 804px;
+    .subscriptions-content {
+      margin: 0px auto; } }
+  &.pre-launch-inner-block div.subscriptions-content-form {
+    margin: 0px auto; }
+  &.pre-launch-block h2.welcome-head {
+    color: #1fa6c8;
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0px 0px 10px 0px; }
+  &.subscriptions-content {
+    color: lighten($base-black, 30%);
+    font-size: 13px;
+    text-align: center;
+    width: 421px; } }
+
+#pages-pre-launch #agriya {
+  border-top: none;
+  margin: 0 auto;
+  padding: 0px;
+  color: $base-white; }
+
+form.normal {
+  width: 98%;
+  padding: 10px;
+  div {
+    &.input {
+      padding: 5px;
+      margin: 5px; }
+    &.select select, &.text input {
+      width: 302px;
+      font-size: 13px;
+      padding: 9px 2px 9px 5px;
+      margin: 0px 5px 0px 201px;
+      border: 1px solid #dbdbdb;
+      font-family: $common-font;
+      background: white url(../img/input-shadow.png) repeat-x left bottom; } } }
+
+ul.coupon-code li input:hover {
+  border: 1px solid #39c8d8;
+  background: white url(../img/input-shadow-top.png) repeat-x left top; }
+
+form {
+  &.normal div {
+    &.select select:hover, &.text input:hover, &.select select:active, &.text input:focus, &.select select:focus, &.text input:active {
+      border: 1px solid #39c8d8;
+      background: white url(../img/input-shadow-top.png) repeat-x left top; }
+    &.select select {
+      padding: 4px;
+      width: 311px;
+      height: 37px;
+      padding: 5px 0px; }
+    &.submit {
+      input {
+        background: url("../img/common-sprite.png") no-repeat right -8541px;
+        font-family: $common-font;
+        cursor: pointer;
+        font-size: 13px;
+        width: auto;
+        color: $base-blue;
+        border: 0px;
+        padding: 0 4px 3px 0;
+        font-weight: normal;
+        height: 31px;
+        font-weight: bold; }
+      background: url("../img/common-sprite.png") no-repeat 0 -8469px;
+      float: left;
+      height: 31px;
+      margin: 0 5px 0 0;
+      padding: 0 0 0 5px; } }
+  &.search-form div.submit, &.affliates-form div.submit {
+    background: url("../img/common-sprite.png") no-repeat 0 -8469px;
+    float: left;
+    height: 31px;
+    margin: 0 5px 0 0;
+    padding: 0 0 0 5px; }
+  &.normal div {
+    &.submit input:hover {
+      color: $base-black; }
+    &.subscriptions-content-form div {
+      &.input, &.select {
+        float: left;
+        padding: 0px; }
+      &.text {
+        width: 232px;
+        padding: 0px 0px 10px 0px; }
+      &.error-message {
+        background: url("../img/common-sprite.png") no-repeat scroll -9px -7913px transparent;
+        color: $base-red;
+        font-size: 12px;
+        margin: 8px 0 0 5px;
+        padding: 0 0 0 21px;
+        text-align: left; }
+      &.submit {
+        float: right;
+        margin: 0px 20px 0px 0px; }
+      &.select {
+        padding: 0px 0px 0px 19px; }
+      &.input {
+        label {
+          display: block;
+          text-align: left;
+          width: auto;
+          position: static;
+          padding: 3px 0 4px 10px;
+          color: lighten($base-black, 30%);
+          font-size: 11px;
+          font-weight: normal;
+          background: url("../img/common-sprite.png") no-repeat scroll left -5990px transparent; }
+        input {
+          margin: 0;
+          width: 223px;
+          font-size: 13px; } }
+      &.select select {
+        margin: 0;
+        width: 223px;
+        font-size: 13px; }
+      &.text input {
+        margin: 3px 0px 0px 2px;
+        width: 218px; } } } }
+
+div.step-content-info {
+  background: $base-white;
+  width: 505px;
+  background: $base-white;
+  padding: 20px 20px 15px;
+  -moz-box-shadow: 3px 4px 2px #acafb0; }
+
+/** Flash message */
+
+.message {
+  z-index: 10000;
+  width: 100%;
+  font-weight: bold;
+  overflow: hidden;
+  font-size: 13px; }
+
+div.flash-message-inner {
+  padding: 20px 50px 20px 70px;
+  position: relative; }
+
+span.flash-close {
+  background: url(../img/common-sprite.png) no-repeat scroll left -2084px;
+  display: block;
+  position: absolute;
+  right: 3px;
+  text-indent: -3000em;
+  top: 8px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer; }
+
+#successMessage, .success {
+  background: #eff;
+  border: 1px solid #6f0; }
+
+#flashMessage {
+  background: #ffe;
+  border: 1px solid #f60; }
+
+#errorMessage, #authMessage, #successMessage, #flashMessage {
+  padding: 20px 0 23px 63px;
+  height: 7px; }
+
+#errorMessage, #authMessage {
+  background: #ffebf3 url(../img/common-sprite.png) no-repeat 10px -2725px;
+  border: 1px solid #FF1F1F; }
+
+#successMessage {
+  background: #eeffff url(../img/common-sprite.png) no-repeat 10px -1687px; }
+
+#flashMessage {
+  background: #ffffee url(../img/common-sprite.png) no-repeat 10px -5625px; }
+
+.notice {
+  background: url("../img/common-sprite.png") no-repeat scroll 2px -3084px transparent;
+  color: $base-red;
+  padding: 2px 2px 2px 25px; }
+
+table.list tr td.notice {
+  padding-left: 25px; }
+
+/*Background image to be auto-resized to window... */
+
+#bg-stretch-autoresize, #bg-stretch, #bg-repeat {
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1; }
+
+#bg-stretch img {
+  height: 100%;
+  width: 100%; }
+
+#bg-repeat img {
+  display: none; }
+
+.round-10 {
+	@include rounded(10px) }
+
+/* footer style is begin */
+
+#footer {
+  background: lighten($base-black, 21%);
+  bottom: 0;
+  font-size: 12px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  height: 40px;
+  p {
+    float: left;
+    margin: 10px 6px 0px 5px;
+    padding: 0px 0px 5px 0px; } }
+
+p.cssilize {
+  margin: 0px 6px 0px 5px; }
+
+.footer-wrapper-inner {
+  margin: 0 auto;
+  width: 990px;
+  padding: 5px 0px; }
+
+#agriya {
+  p {
+    &.copy a:hover {
+      color: $base-blue; }
+    &.powered {
+      width: 300px;
+      margin: 7px auto;
+      float: left;
+      span {
+        float: left; } } }
+  a {
+    &.powered {
+      background: url("../img/powered-by-groupdeal.png") no-repeat 0 0;
+      float: left;
+      height: 17px;
+      text-indent: -9999em;
+      width: 85px; }
+    &.company {
+      background: url("../img/powered-by-agriya.png") no-repeat 0 0;
+      float: left;
+      height: 15px;
+      margin: 0 5px;
+      text-indent: -9999em;
+      width: 80px; }
+    &.cssilize {
+      background: url("../img/cssilize.png") no-repeat 0 0;
+      height: 18px;
+      display: block;
+      text-indent: -9999em;
+      width: 118px;
+      margin: 0 auto;
+      position: relative;
+      left: 5px;
+      top: 0px;
+      float: left; } } }
+
+/** Clearfix styles*/
+
+.clearfix {
+  &:after {
+    clear: both;
+    content: '.';
+    display: block;
+    visibility: hidden;
+    height: 0; }
+  display: block; }
+
+.js .hide {
+  display: none; }
+
+* html .clearfix {
+  height: 1%; }
+
+*+html .clearfix {
+  display: inline-block; }

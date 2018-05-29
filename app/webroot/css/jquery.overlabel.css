@@ -1,0 +1,16 @@
+/* JavaScript */
+label.overlabel-apply,form.normal div.overlabel-wrapper label.overlabel-apply,form.normal div.deal-add-date-time-block div.end-date-time-block div.timepicker label {
+	position:absolute;
+	left:3px;
+	z-index:1;
+	text-align:left;
+	width:81px;
+	font-size:11px;
+	font-weight:normal;
+	margin:0px;
+	cursor:pointer !important;
+}
+form.normal div.overlabel-wrapper label.overlabel-apply {
+	background:none;
+	padding: 5px 0px 0px 20px;
+}

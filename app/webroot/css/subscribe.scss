@@ -1,0 +1,334 @@
+/* Subscription page style is begin */
+
+a {
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+    color: lighten($base-black, 65%); } }
+
+div.content {
+  color: lighten($base-black, 30%);
+  line-height: 18px;
+  font-size: 12px;
+  font-family: $common-font; }
+
+.js .hide, .hidden-info {
+  display: none; }
+
+body.subscription {
+  overflow: hidden; }
+
+/** Flash message */
+
+.message {
+  z-index: 10000;
+  width: 100%;
+  font-weight: bold;
+  overflow: hidden;
+  font-size: 13px;
+  text-align: left; }
+
+div.flash-message-inner {
+  padding: 20px 50px 20px 70px;
+  position: relative; }
+
+span.flash-close {
+  background: url(../img/common-sprite.png) no-repeat scroll left -2084px;
+  display: block;
+  position: absolute;
+  right: 3px;
+  text-indent: -3000em;
+  top: 8px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer; }
+
+#successMessage, .success {
+  background: #eff;
+  border: 1px solid #6f0; }
+
+#flashMessage {
+  background: #ffe;
+  border: 1px solid #f60; }
+
+#errorMessage, #authMessage, #successMessage, #flashMessage {
+  padding: 20px 0 23px 63px;
+  height: 7px; }
+
+#errorMessage, #authMessage {
+  background: url("../img/common-sprite.png") no-repeat scroll 10px -2678px #ffebf3;
+  border: 1px solid #FF1F1F; }
+
+#successMessage {
+  background: #eeffff url(../img/common-sprite.png) no-repeat 10px -1687px; }
+
+#flashMessage {
+  background: #ffffee url(../img/common-sprite.png) no-repeat 10px -5625px; }
+
+.notice {
+  background: url("../img/common-sprite.png") no-repeat scroll 2px -3084px transparent;
+  color: $base-red;
+  padding: 2px 2px 2px 25px; }
+
+table.list tr td.notice {
+  padding-left: 25px; }
+
+/* form style is begin */
+
+form.normal {
+  width: 98%;
+  padding: 10px;
+  div {
+    &.input {
+      padding: 5px;
+      margin: 5px; }
+    &.select select, &.text input {
+      font-size: 13px;
+      padding: 9px 2px 9px 5px;
+      border: 1px solid #dbdbdb;
+      font-family: $common-font;
+      background: white url(../img/input-shadow.png) repeat-x left bottom; } } }
+
+ul.coupon-code li input:hover {
+  border: 1px solid #39c8d8;
+  background: white url(../img/input-shadow-top.png) repeat-x left top; }
+
+form {
+  &.normal div {
+    &.select select:hover, &.text input:hover, &.select select:active, &.text input:focus, &.select select:focus, &.text input:active {
+      border: 1px solid #39c8d8;
+      background: white url(../img/input-shadow-top.png) repeat-x left top; }
+    &.select select {
+      padding: 4px;
+      width: 311px;
+      height: 37px;
+      padding: 5px 0px; }
+    &.submit {
+      input {
+        background: url("../img/common-sprite.png") no-repeat right -8541px;
+        font-family: $common-font;
+        cursor: pointer;
+        font-size: 13px;
+        width: auto;
+        color: $base-blue;
+        border: 0px;
+        padding: 0 4px 3px 0;
+        font-weight: normal;
+        height: 31px;
+        font-weight: bold; }
+      background: url("../img/common-sprite.png") no-repeat 0 -8469px;
+      float: left;
+      height: 31px;
+      margin: 0 5px 0 0;
+      padding: 0 0 0 5px; } }
+  &.search-form div.submit, &.affliates-form div.submit {
+    background: url("../img/common-sprite.png") no-repeat 0 -8469px;
+    float: left;
+    height: 31px;
+    margin: 0 5px 0 0;
+    padding: 0 0 0 5px; }
+  &.normal div.submit input:hover {
+    color: $base-black; } }
+
+.step-two {
+  margin-left: -300px;
+  position: absolute;
+  top: 100px; }
+
+div {
+  &.subscription-content {
+    width: 995px;
+    margin: 0px auto; }
+  &.step-content-info {
+    background: $base-white;
+    width: 450px;
+    background: $base-white;
+    padding: 20px 20px 15px;
+    -moz-box-shadow: 3px 4px 2px lighten($base-black, 74%);
+    -moz-border-shadow: 3px 4px 2px lighten($base-black, 74%);
+    -khtml-border-shadow: 3px 4px 2px lighten($base-black, 74%);
+    -o-border-shadow: 3px 4px 2px lighten($base-black, 74%); } }
+
+form.form {
+  height: 500px;
+  margin: 0px auto 0px auto;
+  overflow: hidden;
+  position: relative;
+  width: 98%; }
+
+div#agriya {
+  margin: 0px auto;
+  padding: 0px; }
+
+form.normal div {
+  &.js-step_one div.select label, &.step-one div.text label {
+    position: static;
+    display: block;
+    padding: 21px 0 30px 66px;
+    font-size: 20px;
+    width: auto;
+    font-weight: bold;
+    background: url("../img/user-sprite.png") no-repeat left -9881px;
+    color: $base-black; }
+  &.js-step_one div.select label {
+    background: url("../img/user-sprite.png") no-repeat scroll left -9791px transparent;
+    padding: 23px 0 21px 73px; }
+  &.step-one div {
+    &.select select, &.text input {
+      margin: 0px 0 10px 67px;
+      width: 311px; } } }
+
+ul.sign-in li {
+  background: url("../img/user-sprite.png") no-repeat scroll 0 -2514px transparent;
+  display: inline;
+  padding: 0 0 0 18px;
+  a {
+    font-size: 12px; }
+  &:first-child {
+    background: none;
+    padding: 0px; } }
+
+form.normal div.step-one div.submit {
+  float: right;
+  margin: 5px 0px;
+  padding: 0px 0px 0px 4px; }
+
+div {
+  &.js-step_one div.step-content-info div.input {
+    padding: 0px 0px 20px 0px; }
+  &.step-content-info div.input {
+    border-bottom: 1px solid lighten($base-black, 87%);
+    margin: 0px 0px 10px 0px;
+    padding: 0px 0px 40px 0px; }
+  &.step-one h2 {
+    color: $base-blue;
+    background: url("../img/user-sprite.png") no-repeat left -9881px;
+    padding: 23px 0 21px 73px;
+    font-size: 20px; } }
+
+form {
+  &.normal div.js-step_two div.select {
+    margin: 10px 0 10px 76px; }
+  &#homeSubscriptionFrom div.step-one div.error-message {
+    background: url("../img/common-sprite.png") no-repeat scroll -9px -7913px transparent;
+    color: $base-red;
+    font-size: 12px;
+    margin: 5px 0 0 67px;
+    padding: 0 0 0 22px; } }
+
+/*Background image to be auto-resized to window... */
+
+#bg-stretch-autoresize, #bg-stretch, #bg-repeat {
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1; }
+
+#bg-stretch img {
+  height: 100%;
+  width: 100%; }
+
+#bg-repeat img {
+  display: none; }
+
+.round-10 {
+  -moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px; }
+
+/* footer style is begin */
+
+#footer {
+  background: lighten($base-black, 21%);
+  bottom: 0;
+  font-size: 12px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  height: 40px; }
+
+p {
+  float: left;
+  margin: 5px 6px 0 5px;
+  padding: 0px 0px 5px 0px;
+  &.cssilize {
+    margin: 0px 6px 0px 5px; } }
+
+.footer-wrapper-inner {
+  margin: 0 auto;
+  width: 990px;
+  padding: 5px 0px; }
+
+body.subscription {
+  div#main {
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden !important;
+    position: relative;
+    width: 95%; }
+  p {
+    color: lighten($base-black, 65%); } }
+
+a {
+  color: lighten($base-black, 65%); }
+
+body.subscription p.email_never_share {
+  font-size: 11px;
+  padding: 0px 0px 10px 68px; }
+
+#agriya {
+  p {
+    &.copy a:hover {
+      color: $base-blue; }
+    &.powered {
+      width: 300px;
+      margin: 7px auto;
+      float: left;
+      span {
+        float: left; } } }
+  a {
+    &.powered {
+      background: url("../img/powered-by-groupdeal.png") no-repeat 0 0;
+      float: left;
+      height: 17px;
+      text-indent: -9999em;
+      width: 85px; }
+    &.company {
+      background: url("../img/powered-by-agriya.png") no-repeat 0 0;
+      float: left;
+      height: 15px;
+      margin: 0 5px;
+      text-indent: -9999em;
+      width: 80px; }
+    &.cssilize {
+      background: url("../img/cssilize.png") no-repeat 0 0;
+      height: 18px;
+      text-indent: -9999em;
+      width: 118px;
+      margin: 0 auto;
+      position: relative;
+      left: 5px;
+      top: 7px;
+      float: left; } } }
+
+/** Clearfix styles*/
+
+.clearfix {
+  &:after {
+    clear: both;
+    content: '.';
+    display: block;
+    visibility: hidden;
+    height: 0; }
+  display: block; }
+
+* html .clearfix {
+  height: 1%; }
+
+*+html .clearfix {
+  display: inline-block; }

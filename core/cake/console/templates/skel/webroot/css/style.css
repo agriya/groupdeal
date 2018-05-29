@@ -1,0 +1,377 @@
+/* $Id: style.css 187 2009-02-27 23:39:20Z rajesh_04ag02 $ */
+
+/* include reset.css */
+
+/* Common */
+h2{
+    color: #f06;
+}
+a{
+    color: #2E6AB1;
+    text-decoration:none;
+}
+.content {
+	background-color: #fff;
+	color: #333;
+	font: normal 120% Trebuchet MS,verdana,helvetica,arial,sans-serif;
+}
+/** header*/
+#header{
+	background: url(../img/bg-header.png) repeat-x;
+	padding: 10px 10px 40px 10px;
+}
+#header h1 {
+	background: url(../img/logo.gif) no-repeat left;
+	margin: 0px 20px;
+    padding: 5px 0px 5px 50px;
+    font: bold 200% Verdana;
+}
+#header h1 a {
+	color: #000;
+	text-decoration: none;
+}
+#header h1 a:hover {
+	text-decoration: underline;
+}
+#sub-header{
+	float:right;
+	position:absolute;
+	right:50px;
+	top:10px;
+}
+#sub-header li{
+    display: inline;
+}
+/** footer */
+#footer {
+	clear: both;
+	background: #eee;
+	margin: 10px 0px 0px 0px;
+	padding: 0px 10px;
+	font-size: 60%;
+}
+#footer a{
+    color: #2E6AB1;
+    text-decoration:none;
+}
+#footer a:hover{
+    background-color: #ff0;
+    text-decoration:underline;
+}
+/* classes * /
+.throbber{
+   	background: url(../img/throbber.gif) no-repeat left;
+}
+/** form */
+form.normal {
+    width: 50%;
+    padding: 5px;
+    margin: 5px;
+}
+form.normal div.input, form.normal div.submit{
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #eee;
+}
+form.normal div.input label{
+    display: block;
+}
+form.normal div.checkbox label, form.normal div.radio label{
+    display: inline;
+    margin: 0px 10px 0px 5px;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+form.normal div.required label{
+    font-weight: bold;
+	background:transparent url(../img/required.gif) no-repeat 100% 50%;
+}
+form.normal div.input input, form.normal div.submit input, form.normal div.input textarea{
+    width: 95%;
+	background:#fff url(../img/bg-input.png) repeat-x 0 100%;
+	border:1px solid #b2b2b2;
+	font-size:1.1em;
+	margin:1px;
+	padding:2px 5px;
+}
+form.normal div.input textarea{
+    height: 200px;
+    background:#fff;
+}
+form.normal div.checkbox input, form.normal div.radio input{
+    width: auto;
+}
+form.normal div.submit input{
+	background:#fff url(../img/bg-submit.png) repeat-x 0 100%;
+    width: auto;
+    margin-left: 50%;
+    cursor: pointer;
+}
+form.normal div.input input:hover, form.normal div.input input:active, form.normal div.input input:focus, form.normal div.input textarea:focus{
+	border:1px solid #666;
+	background-color: #fff;
+}
+form.normal div.error-message{
+    color: #f06;
+}
+form.normal div.error{
+    background-color: #ffeeff;
+}
+form.normal div.error label{
+    color: #000;
+}
+form.normal div.error input, form.normal div.error textarea, form.normal div.error select{
+    background-color: #ffffe1;
+    border: 1px solid #f06;
+}
+
+/* http://www.visakopu.net/misc/table-border-css/ */
+table.list, table.list td, table.list th {
+    border-color: #eee;
+    border-style: solid;
+}
+table.list {
+    border-width: 0 0 1px 1px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 5px auto;
+    width:90%;
+    font-size:80%;
+}
+table.list td, table.list th {
+    margin: 0;
+    padding: 4px;
+    border-width: 1px 1px 0 0;
+    background-color: #fff;
+    vertical-align: middle;
+    text-align: center;
+}
+table.list th {
+    color: #0096FF;
+}
+table.list tr.altrow td{
+    background-color: #f2f7fb;
+}
+table.list tr:hover td{
+}
+
+a.add {
+	background: url(../img/icon-add.png) 0 0 no-repeat;
+	padding-left: 16px;
+	margin-right: 16px;
+}
+a.delete {
+	background: url(../img/icon-delete.png) 0 0 no-repeat;
+	padding-left: 16px;
+	margin-right: 16px;
+}
+a.edit {
+	background: url(../img/icon-edit.png) 0 0 no-repeat;
+	padding-left: 16px;
+	margin-right: 16px;
+}
+
+/* sort */
+a.asc {
+    background: transparent url(../img/icon-sort-down.gif) no-repeat scroll right center;
+}
+a.desc {
+    background: transparent url(../img/icon-sort-up.gif) no-repeat scroll right center;
+}
+a.asc, a.desc {
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+/* Paging */
+div.paging {
+    clear: both;
+}
+div.paging a, div.paging span{
+	background-color: #fefefe;
+	color: #2e6ab1;
+	text-decoration: none;
+}
+div.paging a, div.paging span.prev, div.paging span.next, div.paging span.current{
+	border: 1px solid #d4d4d4;
+	margin: 2px;
+	padding: 3px;
+}
+div.paging span.prev, div.paging span.next{
+	color: #d4d4d4;
+}
+div.paging span.skip{
+    border: none;
+}
+div.paging a:hover {
+	border: 1px solid #f06;
+}
+div.paging span.current {
+	border: 1px solid #f06;
+}
+
+/* http://www.maxdesign.com.au/presentation/definition/dl-table-display.htm */
+dl.list {
+	width:41.1em;
+	margin:2em 0;
+	padding:0;
+}
+dl .altrow{
+    background-color: #f2f7fb;
+}
+dl.list dt {
+	width:10em;
+	float:left;
+	margin:0 0 0 0;
+	padding:.5em;
+	border-top:1px solid #eee;
+	font-weight: bold;
+}
+/* commented backslash hack for mac-ie5 \*/
+dl.list dt {
+	clear: both;
+}
+/* end hack */
+dl.list dd {
+	float:left;
+	width:24em;
+	margin:0 0 0 0;
+	padding:.5em;
+	border-top: 1px solid #eee;
+}
+/* Flash */
+.message{
+    margin: 5px auto;
+    padding: 5px;
+    width: 50%;
+}
+#errorMessage, .error{
+    background: #ffebf3;
+    border: 1px solid #f06;
+}
+#successMessage, .success{
+    background: #eff;
+    border: 1px solid #6f0;
+}
+#flashMessage, .notice, table.list td.notice{
+    background: #ffe;
+    border: 1px solid #f60;
+}
+/*  Actions  */
+div.actions ul {
+	margin: 0px 0;
+	padding: 0;
+}
+div.actions li {
+	display: inline;
+	list-style-type: none;
+	line-height: 2em;
+	margin: 0 2em 0 0;
+	white-space: nowrap;
+}
+
+ul.list li {
+    border: 3px solid #eee;
+	margin: 5px;
+    margin: 2px;
+	float: left;
+}
+ul.list li:hover {
+    border: 3px solid #f06;
+}
+ul.list li p{
+	margin: 0px 0px 0px 5px;
+}
+
+ol.list li {
+    border: 3px solid #eee;
+	margin: 5px;
+    margin: 2px;
+	float: left;
+}
+ol.list li:hover {
+    border: 3px solid #f06;
+}
+ol.list li p{
+	margin: 0px 0px 0px 5px;
+}
+
+/* Related */
+/*
+div.related {
+	clear: both;
+	display: block;
+}
+*/
+
+/* JavaScript */
+label.overlabel-apply {
+	position:absolute;
+	bottom:5px;
+	left:10px;
+	z-index:1;
+	color:#999;
+}
+
+
+/* Hacks */
+
+
+/* CakePHP */
+.cake-sql-log {
+    font-family: "Courier New";
+    font-size: 80%;
+}
+.cake-sql-log td, .cake-sql-log th {
+	padding: 4px 8px;
+	text-align: left;
+	border: 1px solid #eee;
+}
+/*
+pre {
+	color: #000;
+	background: #f0f0f0;
+	padding: 1em;
+}*/
+pre.cake-debug {
+	background: #ffcc00;
+	font-size: 120%;
+	line-height: 140%;
+	margin-top: 1em;
+	overflow: auto;
+	position: relative;
+}
+div.cake-stack-trace {
+	background: #fff;
+	border: 4px dotted #ffcc00;
+	color: #333;
+	margin: 0px;
+	padding: 6px;
+	font-size: 120%;
+	line-height: 140%;
+	overflow: auto;
+	position: relative;
+}
+div.cake-code-dump pre {
+	position: relative;
+	overflow: auto;
+}
+div.cake-stack-trace pre, div.cake-code-dump pre {
+	color: #000000;
+	background-color: #F0F0F0;
+	margin: 0px;
+	padding: 1em;
+	overflow: auto;
+}
+div.cake-code-dump pre, div.cake-code-dump pre code {
+	clear: both;
+	font-size: 12px;
+	line-height: 15px;
+	margin: 4px 2px;
+	padding: 4px;
+	overflow: auto;
+}
+div.cake-code-dump span.code-highlight {
+	background-color: #FFFF00;
+	padding: 4px;
+}

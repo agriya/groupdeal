@@ -1,0 +1,149 @@
+/*Redirect Layout style is begin */
+
+div.content {
+  color: lighten($base-black, 30%);
+  line-height: 18px;
+  font-size: 12px;
+  font-family: $common-font; }
+
+a {
+  color: $base-blue;
+  text-decoration: none;
+  &:hover {
+    color: $base-black; } }
+
+.js .hide {
+  display: none; }
+
+#authorize {
+  background: #E5FCFF; }
+
+#authorizecontainer {
+  margin: 100px auto;
+  width: 670px;
+  #theme {
+    h1 {
+      display: block;
+      height: 100px;
+      text-indent: -99999px; }
+    .message-content {
+      padding: 10px; } } }
+
+div.authorize-page {
+  background: #E5FCFF;
+  color: lighten($base-black, 30%);
+  font-family: $common-font;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 150px auto;
+  padding: 10px 0 10px 40px;
+  width: 600px; }
+
+.openid-container div.authorize-page {
+  margin: 150px auto 150px 500px; }
+
+div {
+  &#colorbox div.authorize-page {
+    margin: 10px auto;
+    width: auto; }
+  &.authorize-head h2 {
+    float: left; } }
+
+.loading, div.message-content h2 {
+  float: left; }
+
+#theme span {
+  float: left;
+  &.openid-logo {
+    float: left;
+    height: 129px;
+    width: 150px; }
+  text-indent: -99999px;
+  &.site-logo {
+    background: url("../img/logo.png") no-repeat left top;
+    height: 71px;
+    margin: 25px 0;
+    width: 282px; } }
+
+span.openid-to {
+  background: url("../img/user-sprite.png") no-repeat scroll -6px -5895px transparent;
+  height: 50px;
+  margin: 40px 0 0 20px;
+  width: 50px; }
+
+div#colorbox #theme h1 {
+  width: 120px; }
+
+#twitter-authorizecontainer #theme span.openid-logo {
+  background: url("../img/user-sprite.png") no-repeat 25px -5353px; }
+
+#facebook-authorizecontainer #theme span.openid-logo {
+  background: url("../img/user-sprite.png") no-repeat 25px -4521px; }
+
+#foursquare-authorizecontainer #theme span.openid-logo {
+  background: url("../img/user-sprite.png") no-repeat 25px -5150px; }
+
+#yahoo_openid_message #theme span.openid-logo {
+  background: url("../img/user-sprite.png") no-repeat 25px -4914px; }
+
+#google_openid_message #theme span.openid-logo {
+  background: url("../img/user-sprite.png") no-repeat 25px -5032px; }
+
+.openid-authorizecontainer #theme span.openid-logo {
+  background: url("../img/user-sprite.png") no-repeat 25px -4788px; }
+
+#facebook-authorizecontainer, #twitter-authorizecontainer {
+  margin: 0 auto;
+  width: 520px;
+  color: $base-white; }
+
+.message-content {
+  color: $base-black;
+  padding: 30px 0;
+  text-align: center;
+  h2 {
+    border: none; }
+  input {
+    background: none;
+    border: none;
+    color: #2D9DC1;
+    padding: 0px;
+    cursor: pointer; }
+  p {
+    text-align: left; } }
+
+.loading {
+  width: 20px;
+  height: 20px;
+  text-indent: -99999em;
+  padding: 0px !important;
+  margin: 0px;
+  background: url(../img/loading.gif) no-repeat left top;
+  margin: 0 0 0 20px; }
+
+.authorize-head span.loading {
+  margin: 5px 0 0 5px; }
+
+.authorize-page, .message-content input {
+  font-size: 12px; }
+
+div.authorize-head h2 {
+  margin: 0px;
+  padding: 0px; }
+
+/** Clearfix styles*/
+
+.clearfix {
+  &:after {
+    clear: both;
+    content: '.';
+    display: block;
+    visibility: hidden;
+    height: 0; }
+  display: block; }
+
+* html .clearfix {
+  height: 1%; }
+
+*+html .clearfix {
+  display: inline-block; }

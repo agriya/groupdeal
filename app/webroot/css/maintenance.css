@@ -1,0 +1,69 @@
+/* $Id:maintanace.css 187 2011-12-30 23:39:20Z josephine_065at09 $ */
+body.maintanace{
+    background:#F9F9EF;
+    font-family:arial;
+    font-size:12px;
+    color:#000;
+    line-height:17px;
+}
+h1 a {
+    background: none repeat scroll 0 0 transparent;
+    color: #FEFEFE;
+    display: block;
+    height: 74px;
+    margin: 20px 0 30px 62px;
+    text-indent: -99999em;
+    width: 318px;
+     background: url("../img/logo.png") no-repeat left top;
+}
+div.maintanace-mode{
+    background: url("../img/maintanace-mode.png") no-repeat  right bottom #F9F9EF;
+    margin: 0 auto;
+    min-height: 466px;
+    width:763px;
+}
+div.maintanace-inner-mode{
+   background: url("../img/maintanace-bg.png") no-repeat  left top;
+   height: 232px;
+   padding: 40px 48px;
+   width: 413px;
+}
+div.maintanace-inner-mode h2{
+    color:#000;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 2px 0 20px;
+}
+div.maintanace-inner-mode h2.maintenance-title{
+   padding:25px 0;
+}
+div.maintanace-inner-mode p{
+    padding:2px 0;
+}
+p.try-info{
+    font-weight:bold;
+}
+div.maintanace-mode form.normal div.input label{
+	width:77px;
+}	
+div.maintanace-mode form.normal div.input,div.maintanace-mode form.normal{
+	margin:0;
+}
+div.maintanace-mode form.normal div.text input, div.maintanace-mode form.normal div.password input{
+	margin:0 0 0 100px;
+	padding:5px;
+	width:200px;
+}
+ div.maintanace-mode form.normal div.checkbox input {
+	margin:0 0 0 100px;
+ }
+div.maintanace-mode form.normal div.submit-block{
+    margin: 0 0 0 104px;
+    padding:0;
+}
+div.maintanace-mode div.fromleft{
+	margin:3px 0 0 106px;
+}
+div.maintanace-mode form.normal div.error-message {
+    margin:-20px 0 0 320px;
+ }

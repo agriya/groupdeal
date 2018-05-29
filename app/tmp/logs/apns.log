@@ -1,0 +1,120 @@
+This user has disabled Push Badge Notifications, Badge will not be delivered.
+
+	1) Dispatcher::dispatch -> File: index.php (line 109)
+	2) Dispatcher::_invoke -> File: dispatcher.php (line 138)
+	3) ::call_user_func_array -> File: dispatcher.php (line 189)
+	4) DealsController::index 
+	5) Controller::__get -> File: deals_controller.php (line 244)
+	6) Controller::__isset -> File: controller.php (line 389)
+	7) Controller::loadModel -> File: controller.php (line 364)
+	8) ClassRegistry::init -> File: controller.php (line 608)
+	9) Deal::__construct -> File: class_registry.php (line 136)
+	10) Deal::_sendIphonePushMessage -> File: deal.php (line 918)
+	11) APNS::queueMessage -> File: deal.php (line 2699)
+	12) APNS::_triggerError -> File: class_APNS.php (line 687)
+
+This user has disabled Push Sound Notifications, Sound will not be delivered.
+
+	1) Dispatcher::dispatch -> File: index.php (line 109)
+	2) Dispatcher::_invoke -> File: dispatcher.php (line 138)
+	3) ::call_user_func_array -> File: dispatcher.php (line 189)
+	4) DealsController::index 
+	5) Controller::__get -> File: deals_controller.php (line 244)
+	6) Controller::__isset -> File: controller.php (line 389)
+	7) Controller::loadModel -> File: controller.php (line 364)
+	8) ClassRegistry::init -> File: controller.php (line 608)
+	9) Deal::__construct -> File: class_registry.php (line 136)
+	10) Deal::_sendIphonePushMessage -> File: deal.php (line 918)
+	11) APNS::queueMessage -> File: deal.php (line 2699)
+	12) APNS::_triggerError -> File: class_APNS.php (line 699)
+
+This user has disabled Push Badge Notifications, Badge will not be delivered.
+
+	1) Dispatcher::dispatch -> File: index.php (line 109)
+	2) Dispatcher::_invoke -> File: dispatcher.php (line 138)
+	3) ::call_user_func_array -> File: dispatcher.php (line 189)
+	4) DealsController::index 
+	5) Controller::__get -> File: deals_controller.php (line 244)
+	6) Controller::__isset -> File: controller.php (line 389)
+	7) Controller::loadModel -> File: controller.php (line 364)
+	8) ClassRegistry::init -> File: controller.php (line 608)
+	9) Deal::__construct -> File: class_registry.php (line 136)
+	10) Deal::_sendIphonePushMessage -> File: deal.php (line 918)
+	11) APNS::queueMessage -> File: deal.php (line 2699)
+	12) APNS::_triggerError -> File: class_APNS.php (line 687)
+
+This user has disabled Push Sound Notifications, Sound will not be delivered.
+
+	1) Dispatcher::dispatch -> File: index.php (line 109)
+	2) Dispatcher::_invoke -> File: dispatcher.php (line 138)
+	3) ::call_user_func_array -> File: dispatcher.php (line 189)
+	4) DealsController::index 
+	5) Controller::__get -> File: deals_controller.php (line 244)
+	6) Controller::__isset -> File: controller.php (line 389)
+	7) Controller::loadModel -> File: controller.php (line 364)
+	8) ClassRegistry::init -> File: controller.php (line 608)
+	9) Deal::__construct -> File: class_registry.php (line 136)
+	10) Deal::_sendIphonePushMessage -> File: deal.php (line 918)
+	11) APNS::queueMessage -> File: deal.php (line 2699)
+	12) APNS::_triggerError -> File: class_APNS.php (line 699)
+
+This user has disabled Push Badge Notifications, Badge will not be delivered.
+
+	1) Dispatcher::dispatch -> File: index.php (line 109)
+	2) Dispatcher::_invoke -> File: dispatcher.php (line 138)
+	3) ::call_user_func_array -> File: dispatcher.php (line 189)
+	4) DealsController::index 
+	5) Controller::__get -> File: deals_controller.php (line 244)
+	6) Controller::__isset -> File: controller.php (line 389)
+	7) Controller::loadModel -> File: controller.php (line 364)
+	8) ClassRegistry::init -> File: controller.php (line 608)
+	9) Deal::__construct -> File: class_registry.php (line 136)
+	10) Deal::_sendIphonePushMessage -> File: deal.php (line 918)
+	11) APNS::queueMessage -> File: deal.php (line 2699)
+	12) APNS::_triggerError -> File: class_APNS.php (line 687)
+
+This user has disabled Push Sound Notifications, Sound will not be delivered.
+
+	1) Dispatcher::dispatch -> File: index.php (line 109)
+	2) Dispatcher::_invoke -> File: dispatcher.php (line 138)
+	3) ::call_user_func_array -> File: dispatcher.php (line 189)
+	4) DealsController::index 
+	5) Controller::__get -> File: deals_controller.php (line 244)
+	6) Controller::__isset -> File: controller.php (line 389)
+	7) Controller::loadModel -> File: controller.php (line 364)
+	8) ClassRegistry::init -> File: controller.php (line 608)
+	9) Deal::__construct -> File: class_registry.php (line 136)
+	10) Deal::_sendIphonePushMessage -> File: deal.php (line 918)
+	11) APNS::queueMessage -> File: deal.php (line 2699)
+	12) APNS::_triggerError -> File: class_APNS.php (line 699)
+
+This user has disabled Push Badge Notifications, Badge will not be delivered.
+
+	1) Dispatcher::dispatch -> File: index.php (line 109)
+	2) Dispatcher::_invoke -> File: dispatcher.php (line 138)
+	3) ::call_user_func_array -> File: dispatcher.php (line 189)
+	4) DealsController::index 
+	5) Controller::__get -> File: deals_controller.php (line 244)
+	6) Controller::__isset -> File: controller.php (line 389)
+	7) Controller::loadModel -> File: controller.php (line 364)
+	8) ClassRegistry::init -> File: controller.php (line 608)
+	9) Deal::__construct -> File: class_registry.php (line 136)
+	10) Deal::_sendIphonePushMessage -> File: deal.php (line 918)
+	11) APNS::queueMessage -> File: deal.php (line 2699)
+	12) APNS::_triggerError -> File: class_APNS.php (line 687)
+
+This user has disabled Push Sound Notifications, Sound will not be delivered.
+
+	1) Dispatcher::dispatch -> File: index.php (line 109)
+	2) Dispatcher::_invoke -> File: dispatcher.php (line 138)
+	3) ::call_user_func_array -> File: dispatcher.php (line 189)
+	4) DealsController::index 
+	5) Controller::__get -> File: deals_controller.php (line 244)
+	6) Controller::__isset -> File: controller.php (line 389)
+	7) Controller::loadModel -> File: controller.php (line 364)
+	8) ClassRegistry::init -> File: controller.php (line 608)
+	9) Deal::__construct -> File: class_registry.php (line 136)
+	10) Deal::_sendIphonePushMessage -> File: deal.php (line 918)
+	11) APNS::queueMessage -> File: deal.php (line 2699)
+	12) APNS::_triggerError -> File: class_APNS.php (line 699)
+

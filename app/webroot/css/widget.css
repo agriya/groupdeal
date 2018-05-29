@@ -1,0 +1,432 @@
+/* Widget style is Begin*/
+div#affiliates-generate_widget h3 {
+	color:#000;
+}
+div.affiliates-submit-block {
+	margin:10px 0 0;
+}
+div.affiliate-preview-block {
+	background:none repeat scroll 0 0 #FCFDD9;
+	border:1px dashed #CCCCCC;
+	margin:0 8px;
+	padding:0 10px;
+	text-align:center;
+}
+div.affiliate-preview-block div.js_widget_script textarea {
+	border: 1px solid #17ABBF;
+	display: block;
+	height: 34px;
+	margin: 10px 0;
+	width: 910px;
+}
+form#AffiliatePreviewForm {
+	padding:0 10px 10px;
+}
+.js-jcarousellite {
+	margin:0 auto;
+}
+div.widget {
+	background:none repeat scroll 0 0 #FFFFFF;
+	border:1px solid #17ABBF;
+	color:#000000;
+	line-height:17px;
+	margin:0 auto;
+	text-align:center;
+}
+div.widget1 {
+	width:88px;
+}
+div.widget2 {
+	height:55px;
+	line-height:14px;
+	padding:3px 0 0;
+	width:118px;
+}
+div.widget2 div.groupdeal-powered-by, .widget8 div.groupdeal-powered-by {
+	margin:6px 0 0;
+}
+div.widget3 {
+	border:4px solid #17ABBF;
+	height:117px;
+	position:relative;
+	width:117px;
+}
+div.widget4 {
+	border:5px solid #17ABBF;
+	height:140px;
+	width:170px;
+}
+.widget4 div.groupdeal-powered-by {
+	margin:3px 0 0;
+}
+.groupdeal-image {
+	float:right;
+}
+div.widget5 {
+	height:48px;
+	padding:5px;
+	text-align:left;
+	width:222px;
+	line-height:14px;
+}
+div.widget5 .groupdeal-get {
+	float:left;
+	font-size:10px;
+	margin:5px 0 0 0;
+}
+.widget5 div.groupdeal-powered-by {
+	float:right;
+	margin:0 0 0;
+}
+.groupdeal-tag {
+	font-size:12px;
+	text-decoration:none;
+}
+.groupdeal-discount {
+	font-size:10px;
+	line-height:10px;
+	text-align:center;
+}
+.groupdeal-title {
+	font-size:10px;
+	font-weight:700;
+	margin:0 0 6px;
+}
+.groupdealTag-block {
+	float:left;
+	width:93px;
+}
+.groupdeal-powered-by{
+	margin:11px 0 0;
+}
+div.widget6 {
+	border:5px solid #17ABBF;
+	height:230px;
+	padding:5px 0;
+	width:290px;
+}
+div.widget7 {
+	border:5px solid #17ABBF;
+	height:260px;
+	padding:5px 0;
+	width:326px;
+}
+.widget4 .groupdeal-get {
+	margin:5px 0 0;
+}
+div.widget8 {
+	height:58px;
+	width:468px;
+}
+.groupdeal-table-left {
+	float:left;
+	font-size:9px;
+	line-height:10px;
+	margin-left:3px;
+	width:43px;
+}
+div.widget3 .groupdealTag-block {
+	float:left;
+	width:46px;
+}
+div.groupdeal-table-right {
+	float:right;
+	font-size:10px;
+	line-height:10px;
+	margin-right:3px;
+	width:23px;
+}
+div.widget4 .groupdealTag-block {
+	float:left;
+	width:77px;
+}
+div.groupdealImage {
+	float:right;
+	height:108px;
+	width:190px;
+}
+div.widget6 .groupdealTag-block {
+	float:left;
+	width:100px;
+}
+div.widget7 .groupdealTag-block {
+	float:left;
+	width:103px;
+}
+.groupdealTableRight {
+	float:right;
+	font-weight:bold;
+	margin-right:2px;
+	font-size:12px;
+}
+.js-wiget-7 .groupdealBought {
+	margin:42px 0 15px 8px;
+	text-align:left;
+}
+.js-wiget-6 .groupdealTitle {
+	margin:3px 0 22px;
+}
+.js-wiget-7 .groupdealTitle {
+	margin:3px 0 31px;
+}
+.js-wiget-6 .groupdealPoweredBy {
+	float:right;
+	margin:39px 10px 0;
+	width:84px;
+}
+.js-wiget-6 .groupdealCountdown {
+	float:left;
+	margin:5px 0 6px 6px;
+	text-align:left;
+	width:175px;
+}
+.js-wiget-7 .groupdealPoweredBy {
+	float:right;
+	margin:39px 10px 0;
+	width:84px;
+}
+.js-wiget-7 .groupdealCountdown {
+	float:left;
+	margin:12px 0 6px 6px;
+	text-align:left;
+	width:176px;
+}
+.groupdealTableLeft {
+	float:left;
+	font-size:12px;
+	margin-left:2px;
+}
+.groupdealBought {
+	margin:20px 0 15px 8px;
+	text-align:left;
+}
+.groupdealGet {
+	margin:0 0 0 7px;
+	text-align:left;
+}
+.groupdealCountdown {
+	margin:10px 0 6px 6px;
+	text-align:left;
+}
+span.countdownText {
+	float:left;
+	margin:0 3px 0 0;
+}
+.groupdeal-city {
+	font-size:16px;
+	font-weight:bold;
+}
+div.widget7 div.groupdealImage {
+	height:auto;
+	width:auto;
+}
+.widget8 .groupdealTable-block1 {
+	float:left;
+	width:128px;
+}
+.widget8 .groupdeal-table-left {
+	float:left;
+	font-size:14px;
+	line-height:18px;
+	margin-left:3px;
+	width:90px;
+}
+.widget8 .groupdeal-table-right {
+	float:right;
+	font-size:14px;
+	line-height:18px;
+	margin-right:3px;
+	width:32px;
+}
+.widget8 div.groupdealImage {
+	float:left;
+	margin:2px 10px 0 23px;
+	width:auto;
+	height:auto;
+}
+.widget8 .groupdealTable-block2 {
+	float:left;
+}
+.widget8 div.groupdeal-title {
+	font-size:12px;
+	font-weight:normal;
+	margin:0 0 0 0;
+	text-align:left;
+}
+div.widget9 {
+	line-height:15px;
+	padding:0 5px;
+	width:712px;
+}
+div.widget9 .groupdealTable-block1 {
+	float:left;
+	margin:5px 0 0;
+	width:109px;
+}
+div.widget9 .groupdealTable-block2 {
+	float:left;
+	margin:6px 0 0;
+}
+div.widget9 div.groupdealImage {
+	float:left;
+	height:auto;
+	width:auto;
+}
+div.widget9 .groupdealCity, div.widget9 .groupdealTitle {
+	margin:0 0 0 9px;
+	text-align:left;
+}
+div.widget9 .groupdealBought {
+	float:left;
+	margin:10px 0 7px 8px;
+	text-align:left;
+}
+div.widget9 .groupdealCountdown {
+	float:left;
+	margin:10px 1px 6px 8px;
+	text-align:left;
+	width:280px;
+}
+div.widget9 .groupdealPoweredBy {
+	float:left;
+	margin:18px 0 0 14px;
+}
+.widget10 {
+	height:588px;
+	padding:5px 0;
+	width:118px;
+}
+.widget10 .groupdealTitle, .widget11 .groupdealTitle {
+	margin:12px 0 29px;
+}
+.widget10 div.groupdealImage, .widget11 div.groupImage {
+	float:none;
+	height:auto;
+	margin:0 0 36px;
+	width:auto;
+}
+.widget10 .groupdealGet, .widget11 .groupdealGet {
+	font-size:24px;
+	margin:57px 0 47px;
+	text-align:center;
+}
+.widget10 .groupdealBought, .widget11 .groupdealBought {
+	margin:119px 0 15px;
+	text-align:center;
+}
+.widget10 .groupdealPoweredBy, .widget11 .groupdealPoweredBy {
+	margin:112px 0 0;
+}
+.widget10 span.countdownText {
+	float:none;
+}
+div.widget11 {
+	height:578px;
+	padding:10px 0;
+	width:158px;
+}
+.js-wiget:hover {
+	cursor: pointer;
+}
+.js-wiget:hover button.prev,.js-wiget:hover button.next{
+	border:medium none;
+	cursor:pointer;
+	height:15px;
+
+	position:absolute;
+	text-indent:-9999em;
+	width:8px;
+	z-index:3;
+}
+.js-wiget:hover button.prev {
+	background:url("../img/common-sprite.png") no-repeat scroll left -9238px transparent;
+	left:4px;
+}
+.js-wiget:hover button.next {
+	background:url("../img/common-sprite.png") no-repeat scroll right -9284px transparent;
+    right:4px;
+}
+.js-wiget {
+	margin:0 auto;
+	position:relative;
+}
+.js-wiget button.prev, .js-wiget button.next {
+	background:none;
+	border:none;
+	text-indent:-999em;
+	position:absolute;
+}
+.js-wiget-1, .js-wiget-2 {
+	width:182px;
+}
+.js-wiget-5 {
+	width:234px;
+}
+.js-wiget-5 button.prev, .js-wiget-5 button.next {
+	top:32px;
+}
+.js-wiget-6 {
+	width:300px;
+}
+.js-wiget-6 button.prev, .js-wiget-6 button.next {
+	top:114px;
+}
+.js-wiget-6 .groupdealBought {
+	margin:26px 0 15px 8px;
+	text-align:left;
+}
+.js-wiget-7 {
+	width:336px;
+}
+.js-wiget-7 button.prev, .js-wiget-7 button.next {
+	top:125px;
+}
+.js-wiget-8 {
+	width:468px;
+}
+.js-wiget-8 button.prev, .js-wiget-8 button.next {
+	top:25px;
+}
+.js-wiget-9 {
+	width:728px;
+}
+.js-wiget-9 button.prev, .js-wiget-9 button.next {
+	top:37px;
+}
+.js-wiget-10 {
+	width:120px;
+}
+.js-wiget-10 button.prev, .js-wiget-10 button.next {
+	top:263px;
+}
+.js-wiget-11 {
+	width:160px;
+}
+.js-wiget-11 button.prev, .js-wiget-11 button.next {
+	top:187px;
+}
+.groupdealTable-block2 {
+	float:left;
+}
+div.share-unique-block p {
+	margin:0px 0 2px 7px;
+}
+div.share-unique-block {
+	float:left;
+}
+div.js-wiget span.countdown_section {
+	background:none;
+	font-size:11px;
+	height:29px;
+	line-height:15px;
+	margin:0 5px 0 3px;
+	width:35px;
+	color:#000;
+}
+div.js-wiget span.countdown_amount {
+	color:#1FA6C8;
+	font-size:12px;
+	font-weight:700;
+	left:11px;
+}
+/* Widget style is End*/

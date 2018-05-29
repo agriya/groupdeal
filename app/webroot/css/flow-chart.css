@@ -1,0 +1,286 @@
+/* chart style is begin */
+ul.deal-chart li a {
+	color:#fff;
+	font-size:11px;
+	font-weight:bold;
+	display:block;
+	height:20px;
+	border:1px solid red;
+}
+ul.deal-chart {
+	height:100px;
+	overflow:hidden;
+}
+ul.deal-chart span.new-deal a {
+	color:#333;
+}
+ul.deal-chart li a:hover,ul.deal-chart span.new-deal a:hover {
+	text-decoration:underline;
+}
+ul.deal-chart {
+	padding:50px 0px 50px 3px;
+}
+ul.deal-chart>li {
+	float:left;
+}
+ul.draft-list {
+	float:left;
+	margin:0px 0px 0px 16px;
+}
+ul.live-refunded,ul.draft-list li,ul.opening-links li span.open-links,ul.rejected,div.tipped-block,ul.tipped-links,ul.canceled-links,ul.canceled {
+	position:relative;
+}
+li.draft {
+	top:-39px;
+	left:0px;
+}
+li.pending-approval {
+	top:-35px;
+	left:0px;
+}
+li.upcoming {
+	top:-90px;
+	left:0px;
+}
+ul.opening-links li span.open-links {
+	left:174px;
+	top:-110px;
+	background:url(../img/admin-image/admin-list-chart.png) no-repeat 50px -718px;
+	padding:34px 0px 12px 0px;
+	height:18px;
+}
+ul.opening-links li span.live-open-links {
+	background:url(../img/admin-image/admin-list-livedeal-chart.png) no-repeat 82px -2px;
+}
+ul.rejected {
+	left:89px;
+	top:-72px;
+}
+ul.upcoming-links {
+	display:none;
+}
+ul.tipped-links>li,ul.canceled-links>li {
+	float:left;
+	margin:0px 0px 0px 10px;
+}
+div.tipped-block {
+	left:265px;
+	top:-114px;
+}
+ul.tipped-links {
+	left:-56px;
+	top:-62px;
+}
+ul.live-tipped-links {
+	left:-8px;
+	top:-68px;
+}
+ul.canceled-links {
+	left:27px;
+	top:-4px;
+}
+ul.live-canceled-links {
+	left:-7px;
+}
+span.refunded,span.expired,span.canceled,span.paid,span.closed,span.tipped,span.open,span.rejected,span.upcoming,span.new-deal,span.draft-link,span.pending-approval {
+	height:23px;
+	display:block;
+	float:left;
+}
+span.refunded a,span.expired a,span.canceled a,span.paid a,span.closed a,span.tipped a,span.open a,span.rejected a,span.upcoming a,span.new-deal a,span.draft-link a,span.pending-approval a {
+	display:block;
+}
+span.new-deal {
+	background:url(../img/admin-image/chart-bg.png) no-repeat left -2px;
+	padding:0px 0px 0px 3px;
+	margin:10px 10px 0px 0px;
+}
+span.new-deal a {
+	background:url(../img/admin-image/chart-bg.png) no-repeat right -28px;
+	padding:3px 5px 3px 4px;
+}
+span.draft-link {
+	background:url(../img/admin-image/chart-bg.png) no-repeat left -581px;
+	padding:0px 0px 0px 3px;
+}
+span.draft-link a {
+	background:url(../img/admin-image/chart-bg.png) no-repeat right -608px;
+	padding:3px 5px 3px 4px;
+}
+span.pending-approval {
+	background:url(../img/admin-image/chart-bg.png) no-repeat left -369px;
+	padding:0px 0px 0px 3px;
+}
+span.pending-approval a {
+	background:url(../img/admin-image/chart-bg.png) no-repeat right -395px;
+	padding:3px 5px 3px 4px;
+}
+span.upcoming {
+	background:url(../img/admin-image/chart-bg.png) no-repeat left -422px;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 3px;
+}
+span.upcoming a {
+	background:url(../img/admin-image/chart-bg.png) no-repeat right -448px;
+	display:block;
+	padding:3px 5px 3px 4px;
+}
+span.rejected {
+	background:url(../img/admin-image/chart-bg.png) no-repeat left -474px;
+	padding:0px 0px 0px 3px;
+}
+span.rejected a {
+	background:url(../img/admin-image/chart-bg.png) no-repeat right -500px;
+	padding:3px 5px 3px 4px;
+}
+span.open {
+	background:url(../img/admin-image/chart-bg.png) no-repeat left -265px;
+	padding:0px 0px 0px 3px;
+}
+span.open a {
+	background:url(../img/admin-image/chart-bg.png) no-repeat right -290px;
+	padding:3px 5px 3px 4px;
+}
+span.tipped {
+	background:url(../img/admin-image/chart-bg.png) no-repeat left -161px;
+	padding:0px 0px 0px 3px;
+}
+span.tipped a {
+	background:url(../img/admin-image/chart-bg.png) no-repeat right -187px;
+	padding:3px 5px 3px 4px;
+}
+span.closed {
+	background:url(../img/admin-image/chart-bg.png) no-repeat left -108px;
+	padding:0px 0px 0px 3px;
+}
+span.closed a {
+	background:url(../img/admin-image/chart-bg.png) no-repeat right -134px;
+	display:block;
+	padding:3px 5px 3px 4px;
+}
+span.paid {
+	background:url(../img/admin-image/chart-bg.png) no-repeat left -315px;
+	padding:0px 0px 0px 3px;
+}
+span.paid a {
+	background:url(../img/admin-image/chart-bg.png) no-repeat right -341px;
+	padding:3px 5px 3px 4px;
+}
+span.canceled {
+	background:url(../img/admin-image/chart-bg.png) no-repeat left -54px;
+	padding:0px 0px 0px 3px;
+}
+span.canceled a {
+	background:url(../img/admin-image/chart-bg.png) no-repeat right -81px;
+	padding:3px 5px 3px 4px;
+}
+span.expired {
+	background:url(../img/admin-image/chart-bg.png) no-repeat left -214px;
+	padding:0px 0px 0px 3px;
+}
+span.expired a {
+	background:url(../img/admin-image/chart-bg.png) no-repeat right -240px;
+	padding:3px 5px 3px 4px;
+}
+span.refunded {
+	background:url(../img/admin-image/chart-bg.png) no-repeat left -527px;
+	padding:0px 0px 0px 3px;
+}
+span.refunded a {
+	background:url(../img/admin-image/chart-bg.png) no-repeat right -554px;
+	padding:3px 5px 3px 4px;
+}
+ul.draft-list li {
+	display:block;
+	padding:5px 0px;
+}
+ul.tipped-links li,ul.canceled-links li {
+	background:url(../img/admin-image/admin-list-chart.png) no-repeat -4px -1149px;
+	padding:0px 0px 0px 36px;
+	margin:0px;
+}
+ul.tipped-links li:first-child,ul.canceled-links li:first-child {
+	background:none;
+}
+ul.canceled {
+	left:-47px;
+	top:-32px;
+}
+ul.live-canceled {
+	left:-128px;
+	top:-55px;
+}
+div.canceled-block {
+	height:40px;
+	background:url(../img/admin-image/admin-list-chart.png) no-repeat 5px -1059px;
+	margin:-32px 0px 0px 0px;
+	width:230px;
+}
+ul.opening-links span.open-links {
+	background:url(../img/admin-image/admin-list-chart.png) no-repeat 65px -930px;
+}
+ul.draft-list li.upcoming {
+	background:url(../img/admin-image/admin-list-chart.png) no-repeat 31px -1029px;
+	height:70px;
+}
+ul.draft-list li.live-upcoming {
+	background:url(../img/admin-image/admin-list-livedeal-chart.png) no-repeat 63px -521px;
+	height:81px;
+}
+ul.draft-list li.draft,ul.draft-list li.pending-approval {
+	background:url(../img/admin-image/admin-list-chart.png) no-repeat 18px -229px;
+	padding:0px 0px 22px 0px;
+}
+ul.rejected {
+	background:url(../img/admin-image/admin-list-chart.png) no-repeat 58px -577px;
+	height:54px;
+}
+div.pending-approval-block {
+	background:url(../img/admin-image/admin-list-chart.png) no-repeat 104px -454px;
+	height:78px;
+	width:200px;
+}
+div.live-pending-approval-block {
+	background:url(../img/admin-image/admin-list-livedeal-chart.png) no-repeat 99px -996px;
+}
+div.left-arrow {
+	float:left;
+	background:url(../img/admin-image/admin-list-chart.png) no-repeat 45px -2px;
+	height:60px;
+	padding:20px 0px 0px 0px;
+	margin:-20px -19px 0px 0px;
+}
+div.bottom-arrow {
+	background:url(../img/admin-image/admin-list-chart.png) no-repeat 45px -59px;
+	padding:0px 0px 20px 0px;
+	height:50px;
+}
+span.open-links-top {
+	background:url(../img/admin-image/admin-list-chart.png) no-repeat 50px -818px;
+	height:50px;
+	display:block;
+}
+span.live-open-links-top {
+	background:url(../img/admin-image/admin-list-livedeal-chart.png) no-repeat 82px -84px;
+	padding:0px 20px;
+	height:64px;
+}
+span.open-links-bottom {
+	background:url(../img/admin-image/admin-list-chart.png) no-repeat 65px -924px;
+	display:block;
+	height:44px;
+	width:180px;
+}
+span.live-open-links-bottom {
+	background:url(../img/admin-image/admin-list-livedeal-chart.png) no-repeat -1px -676px;
+	padding:0px 0px 9px 20px;
+}
+ul.live-refunded {
+	left:70px;
+	top:-75px;
+}
+span.live-refunded {
+	background:url(../img/admin-image/admin-list-chart.png) no-repeat 76px -1150px;
+	display:block;
+	height: 30px;
+}

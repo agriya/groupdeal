@@ -1,0 +1,1 @@
+<?php echo $this->requestAction(array('controller' => 'city_suggestions', 'action' => 'index', 'admin' => true, 'type' => 'recent_suggestion','admin'=>true), array('return')); ?>
