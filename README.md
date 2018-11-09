@@ -1,196 +1,98 @@
-Installation Steps
-------------------
+# GroupDeal
 
-### Server Requirements
+GroupDeal is an open source online buying daily deal platform that is capable to run sites similar to Groupon,Groupalia,etc. It is written in CakePHP with MySQL.
 
-    * PHP Version - 5.2.7+ (preferably 5.5)
-        Extensions
-            GD Version - 2.x+
-            PCRE Version - 7.x+
-            cURL version - 7.x+
-            json version - 1.x+
-            PDO
-            Freetype
-            mbstring
-            mysqli
-            PHP ionCube Loader
-        php.ini settings
-            max_execution_time - 180 (not mandatory)
-            max_input_time - 6000 (not mandatory)
-            memory_limit - 128M (at least 32M)
-            safe_mode - off
-            open_basedir - No Value
-            display_error = On
-            magic_quotes_gpc = Off
-    * MySQL Version - 5.x
-    * Apache - 1+ (preferably 2+)
-        Modules
-            mod_rewrite
-            mod_deflate (not mandatory, but highly recommended for better performance–gzip)
-            mod_expires (not mandatory, but highly recommended for better performance–browser caching)
-    Recommended Linux distributions: Centos / Ubuntu / RedHat
+> This is project is part of Agriya Open Source efforts. GroupDeal was originally a paid script and was selling around 14000 Euros. It is now released under dual license (OSL 3.0 & Commercial) for open source community benefits.
 
-### Initial Configurations
-* Extract Files
-		
-		Unzip the zip file
+![gourpdeal_banner 1](https://user-images.githubusercontent.com/4700341/48256729-84ab8400-e436-11e8-9711-68666a333602.png)
+![groupdeal_work 1](https://user-images.githubusercontent.com/4700341/48256728-84ab8400-e436-11e8-835a-7a960915a668.png)
 
-		Upload the unzipped files in server.
+## Support
 
-* Need write permission for following folders
+GroupDeal is an open source online buying daily deal project. Full commercial support (commercial license, customization, training, etc) are available through [GroupDeal platform](https://www.agriya.com/products/groupon-clone)
 
-(Need write permission for php/apache; can be chmod 655 or 755 or 777 depending upon server configuration)
+Theming partner [CSSilize for design and HTML conversions](http://cssilize.com/)
 
-    Make sure the permission as read,write and executable as recursively for the below directories
+## Features
 
-    app/media
-    app/tmp
-    app/webroot/js
-    app/webroot/img
-    app/webroot/css
-    app/webroot/files
-    app/vendors/shells/cron.sh
-    app/vendors/shells/cron.php
-    core/cake/console/cake
-    core/vendors/securimage
+### Multiple Deal
 
-Change following item in app/config/config.php
+Deal can have sub deals or options, merchant user can able to add multiple deal.
 
-$config['site']['domain'] = 'groupdeal'; // change to your domain name (only name like "yourdomain"). also you need to set this only when site routing url is set as subdomain.
+### Nearby Deal
 
-### Updating site logo
+Separate section 'Nearby deal' in sidebar shows either Nearby deals based on user current location or user current viewing deal location.
 
-There are few places where site logo are located. To change those logo, you need to replace your logo with exact name and resolution in the following mentioned directories.
+### Side deal - main deal rotation
 
-* Site Logo
+When main deal is viewed, side deals will be listed in the sidebar, and on viewing the side deal, main deal will be placed in side deal.It is synced, so both the deal types can be seen.
 
-    	app/webroot/img/logo.png                      - 282 x 65
+### Referral system
 
-* Mobile Version Site Logo
+Referral system(allow user to invite friends and get a reward when invited friends buy a deal)
 
-  	  	app/webroot/img/mobile/logo-blue.png           - 172 x 43
+### Affiliate
 
-* Favicon
+User can associate/refer our site to a different network thereby referred user can earn commission Affiliate configuration
 
-     	app/webroot/favicon.ico                        - 16 x 16
+### Charity
 
-* Deal Coupon Email Logo & Deal Coupon Print Logo
+On every purchase, a commission for a charity will be given thereby aiding those charity sites.
+Charity can be easily added from administrator end and any amount earned by that charity will be automatically be sent to those charity without requesting.
 
-     	app/webroot/img/blue-theme/logo-black.png      - 335 x 85
+### Social sharing
 
-* Gift Coupon Mail- Background Image For The Card
+User can effortlessly share any attractive listed deals to their friends using social sharing option.
 
-    	app/webroot/img/blue-theme/gift-card.png       - 476 x 325
+### Advanced Merchant Dashboard
 
-* All Other Email Logo
+Collective information related to deals and coupons are listed in the stats format of Merchants' dashboard
 
-    	app/webroot/img/blue-theme/logo-email.png      - 186 x 47
+### Detailed Merchant status
 
-### Configure Your Database
+Give more access to website merchants in  deriving more statistical data regarding sales, order, deals, & coupon.
 
-The sql file 'groupdeal_with_empty_data.sql' is also attached, which is located in 'app/config/sql'. import the database through phpmyadmin or any other tool.
+### QR Codes
 
-After importing the sql database, do not truncate any data directly from the database. All the data in the imported database are required. Removing unwanted cities can be done through administrator end which will be explained later in the following steps.
+It provide QR code option to your site merchants for making their deals a success with the QR code Coupons.
 
-In app/config/database.php, we need to change host, login, password, database. Update that in 4 places (For setting up master/slave setup, get professional help and it's not thoroughly tested)
+### Multiple cities/platforms
 
-(
-  'host' => 'localhost',
-  'login' => 'dbuser',
-  'password' => 'dbpassword',
-  'database' => 'groupdeal'
-)
+Ability to define multiple cities/platforms.User can switch between the cities with active deals count next to city names. A particular deal can now be listed in more than one cities
 
-### Configure Apache
+###  Multi-Language Support
 
-* If you can reset 'DocumentRoot'
+Translation of front end with multilingual support
+Site translations can be changed any timing
+City specific language support (say, for Moscow, it can be in Russian and for California, it can be in English)
 
-Reset your Apache DocumentRoot to /public_html/app/webroot/ by following means:
+## Getting Started
 
-    If you're on dedicated host, reset DocumentRoot in httpd.conf with /public_html/app/webroot/
-    If you're on shared host, reset your virtual directory to point to /public_html/app/webroot/
+### Prerequisites
 
-Note: This requirement is not mandatory, but highly preferred to skip the following tweaks in htaccess files.
+#### For deployment
 
-* If you cannot reset 'DocumentRoot'
+* MySQL
+* PHP >= 5.5.9 with OpenSSL, PDO, Mbstring and cURL extensions
+* Nginx (preferred) or Apache
 
-Installing site directly in the root e.g., http://yourdomain.com/
+### Setup
 
-Again, no need to tweak 'htaccess' files.
-Installing site as a sub-folder e.g., http://yourdomain.com/myfolder
+* Needs writable permission for `/tmp/` , `/media/` and `/webroot/` folders found within project path
+* Database schema 'app/config/sql/grouponpro_with_empty_data.sql'
 
-    app/.htaccess ensure the RewriteBase as below:
+### Contributing
 
-RewriteBase    /myfolder/app/
+Our approach is similar to Magento. If anything is not clear, please [contact us](https://www.agriya.com/contact).
 
-    app/webroot/.htaccess ensure the RewriteBase as below:
+All Submissions you make to groupdeal through GitHub are subject to the following terms and conditions:
 
-RewriteBase	/myfolder/
+* You grant Agriya a perpetual, worldwide, non-exclusive, no charge, royalty free, irrevocable license under your applicable copyrights and patents to reproduce, prepare derivative works of, display, publicly perform, sublicense and distribute any feedback, ideas, code, or other information ("Submission") you submit through GitHub.
+* Your Submission is an original work of authorship and you are the owner or are legally entitled to grant the license stated above.
 
-### Setting Up Cron
 
-* Setup the cron with anyone of the following command,
+### License
 
-		*/2 * * * * /home/public_html/app/vendors/shells/cron.sh 1>> /home/public_html/app/tmp/error.log 2>> /home/public_html/app/tmp/error.log
-		* 12 * * * /home/public_html/app/vendors/shells/cron24.sh 1>> /home/public_html/app/tmp/error.log 2>> /home/public_html/app/tmp/error.log
+Copyright (c) 2014-2018 [Agriya](https://www.agriya.com/).
 
-Also you need to edit '/home/public_html/app/vendors/shells/cron.sh' file to change the folder path of each command. Note: Please replace ”/home/public_html/” with your folder path.
-
-(or)
-
-php4 is enabled for shell command in some server, above command will not work. In that case, you can use anyone of the following commands,
-
-* Command 1:
-
-Check php installed path in server using ssh command. which php or which php5. It will give output like /usr/bin/php5.
-
-		vi /home/public_html/core/cake/console/cake
- 
-		exec php -q ${LIB}cake.php -working "${APP}" "$@"
-
-In the above file, change the php path with your server php5 installed path,
-
-		exec /usr/bin/php5 -q ${LIB}cake.php -working "${APP}" "$@"
-
-(or)
-
-* Command 2:
-
-		*/2 * * * * wget http://yourdomain.com/cron/update_deal
-		*/2 * * * * wget http://yourdomain.com/cron/pushMessage
-		0 12 * * * wget http://yourdomain.com/cron/currency_conversion
-
-(or)
-
-* Command 3:
-
-		*/2 * * * * lynx http://yourdomain.com/cron/update_deal
-		*/2 * * * * lynx http://yourdomain.com/cron/pushMessage
-		0 12 * * * lynx http://yourdomain.com/cron/currency_conversion
-
-(or)
-
-* Command 4:
-
-		*/2 * * * * curl http://yourdomain.com/cron/update_deal
-		*/2 * * * * curl http://yourdomain.com/cron/pushMessage
-		0 12 * * * curl http://yourdomain.com/cron/currency_conversion
-
-### Verify Your Configuration
-
-* Run Diagnostic tool
-
-    Run the diagnostic tool http://yourdomain.com/diagnose.php and verify all permission has been set properly and all other requirements get met before running the site.
-
-* Running site for the first time
-
-Now run the site with http://yourdomain.com/ or http://yourdomain.com/myfolder
-After successful running of the site, login as admin using the below details in login form.
-
-      username: admin
-      password: agriya
-
-To change administrator profile details , click 'My Account' in the top menu and in 'My Profile', you can edit your administrator information.
-
-To change administrator password, click 'My Account' in the top menu and in 'change password'.
-
+Dual License (OSL 3.0 & [Commercial License](https://www.agriya.com/contact))
