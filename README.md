@@ -1,6 +1,6 @@
 # GroupDeal
 
-GroupDeal is an open source online buying daily deal platform that is capable to run sites similar to Groupon,Groupalia,etc. It is written in CakePHP with MySQL.
+GroupDeal is an open source online group-buying / daily deal platform that is capable to run sites similar to Groupon clones, Groupalia, Gilt, etc. Ideal to improve viral sales for stocked inventory through tipping point strategy. 
 
 > This is project is part of Agriya Open Source efforts. GroupDeal was originally a paid script and was selling around 14000 Euros. It is now released under dual license (OSL 3.0 & Commercial) for open source community benefits.
 
@@ -93,6 +93,6 @@ All Submissions you make to groupdeal through GitHub are subject to the followin
 
 ### License
 
-Copyright (c) 2014-2018 [Agriya](https://www.agriya.com/).
+Copyright (c) 2014-2019 [Agriya](https://www.agriya.com/).
 
 Dual License (OSL 3.0 & [Commercial License](https://www.agriya.com/contact))
